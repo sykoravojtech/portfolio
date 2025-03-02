@@ -1,4 +1,4 @@
-# MyMind - Sibi Siddharth S Portfolio
+# Vojtěch Sýkora Portfolio
 
 Welcome to **MyMind**, the dynamic portfolio website of **Sibi Siddharth S**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
 
@@ -8,7 +8,7 @@ Explore the live portfolio [here](https://sibisiddharth8.github.io/portfolio-rea
 
 ## ⚠️ Important Notice
 
-If you plan to use this repository for your own projects, please ensure to remove or replace the following tracking codes from the `Public/index.html` file:
+If you plan to use this repository for your own projects, please ensure to remove or replace the following tracking codes from the `public/index.html` file:
 
 - **Google Analytics**
 - **Microsoft Clarity**
@@ -112,6 +112,33 @@ These scripts are located in the header section. Retaining them may lead to trac
    ![Footer - Mobile](/readme-images/footermobile.png)
 
 ---
+
+## How to Install
+Download Node.js from the official website:
+👉 https://nodejs.org/
+Choose the LTS (Long-Term Support) version for stability.
+Install it with the default settings.
+This automatically installs npm along with Node.js.
+
+After installation, open Command Prompt (cmd) and check:
+```
+node -v
+npm -v
+```
+now run
+```
+cd portfolio
+npm install
+npm run deploy
+```
+
+in package.json change "homepage"
+and re-deploy
+```
+npm run deploy
+```
+on github go to settings/pages and choose from branch gh-pages/root
+
 
 ## 🔧 Technologies Used
 - **ReactJS**: Frontend framework for building the user interface.
