@@ -21,9 +21,9 @@ const App = () => {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   const [firebaseData, setFirebaseData] = useState({
     Bio: null,
-    skills: null,
-    projects: null,
-    education: null
+    skills: [],
+    projects: [],
+    education: []
   });
 
   useEffect(() => {
