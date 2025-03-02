@@ -115,6 +115,8 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
+console.log("Skills Data:", skillsData);
+
 const Skills = ({ skillsData }) => {
   return (
     <Container id="skills">
