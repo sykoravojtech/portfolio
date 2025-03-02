@@ -4,7 +4,7 @@ Welcome to **MyMind**, the dynamic portfolio website of **Sibi Siddharth S**. Th
 
 ## 🌐 Live Preview
 
-Explore the live portfolio [here](https://sibisiddharth8.github.io/portfolio-react/).
+Explore the live portfolio [here](https://sykoravojtech.github.io/portfolio/).
 
 ## ⚠️ Important Notice
 
