@@ -84,7 +84,7 @@ const ExperienceTimeline = () => {
     });
   }, []);
 
-  console.log("Education Data:", education);
+  console.log("Experience Data:", experiences);
 
 
   return (
