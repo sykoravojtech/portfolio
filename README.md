@@ -1,10 +1,12 @@
 # MyMind - Vojtěch Sýkora's Portfolio
 
+Just add commit and push and run `npm run deploy`
+
 Welcome to **MyMind**, the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
 
 ## 🌐 Live Preview
 
-Explore the live portfolio [here](https://sibisiddharth8.github.io/portfolio-react/).
+Explore the live portfolio [here](https://sykoravojtech.github.io/portfolio/).
 
 ## ⚠️ Important Notice
 
