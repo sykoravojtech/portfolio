@@ -1,7 +1,7 @@
 {
-  "name": "My Mind - Sibi's Portfolio",
-  "short_name": "Sibi's Portfolio",
-  "start_url": "/portfolio-react/",
+  "name": "Vojtěch Sýkora",
+  "short_name": "Vojtěch's Portfolio",
+  "start_url": "/portfolio/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#ffffff",
