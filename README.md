@@ -1,6 +1,10 @@
 # MyMind - Vojtěch Sýkora's Portfolio
 
 Just add commit and push and run `npm run deploy`
+Remove background https://www.remove.bg/
+png to svg https://www.freeconvert.com/png-to-svg
+
+# resst
 
 Welcome to **MyMind**, the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
 

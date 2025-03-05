@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import GetAppIcon from '@mui/icons-material/GetApp';
+// import GetAppIcon from '@mui/icons-material/GetApp';
+import MediumIcon from './medium.svg';
 import { GitHub } from '@mui/icons-material';
 import logo from '../../images/MyLogo.png';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
@@ -167,15 +168,16 @@ const Footer = ({ footerData, links=[] }) => {
           <SocialMediaIcon
             href={footerData?.insta || '#'}
             target="_blank"
-            aria-label="Instagram profile"
+            aria-label="Medium profile"
           >
-            <InstagramIcon />
+            {/* <InstagramIcon /> */}
+            <img src={MediumIcon} alt="Medium" width="24" height="24" />
           </SocialMediaIcon>
-          {deferredPrompt && (
+          {/* {deferredPrompt && (
             <InstallIconWrapper onClick={handleInstallClick} aria-label="Install App">
               <GetAppIcon />
             </InstallIconWrapper>
-          )}
+          )} */}
         </SocialMediaIcons>
         <Copyright>
           &copy; {new Date().getFullYear()} Vojtěch Sýkora. All rights reserved.

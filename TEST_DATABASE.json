@@ -33,7 +33,7 @@
       }
     ],
 
-    "hero": {
+    "Bio": {
         "name": "Vojtěch Sýkora",
         "roles": ["AI/ML Engineer", "Software Developer", "Web Developer"],
         "description": "Building intelligent systems and innovative software solutions.",

@@ -29,9 +29,9 @@ const HeroSection = ({ heroData }) => {
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Title>WEBSITE WORK IN PROGRESS: Hi, I am <br /> {heroData?.name}</Title>
+                        <Title>WEBSITE WORK IN PROGRESS: Hi, I'm <br /> {heroData?.name}</Title>
                         <TextLoop>
-                            I am a
+                            I'm a
                             <Span>
                                 <Typewriter
                                     options={{
