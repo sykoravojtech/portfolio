@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroBgAnimation from '../HeroBgAnimation';
-import profile_pic from '../../images/profile_pic-1.jpg';
+import profile_pic from '../../images/profile_pic-1.png';
 import { 
     HeroContainer, 
     HeroBg, 
