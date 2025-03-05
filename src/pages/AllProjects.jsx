@@ -23,14 +23,14 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
   return (
     <>
       <Helmet>
-        <title>Projects | Sibi Siddharth S Portfolio</title>
+        <title>Projects | Vojtěch Sýkora's Portfolio</title>
         <meta name="description" content="MyMind - the portfolio of Sibi Siddharth S, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
         <meta name="keywords" content="MyMind, Sibi Siddharth S, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
         <meta name="author" content="Sibi Siddharth S" />
         <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
 
         {/* Open Graph Data */}
-        <meta property="og:title" content="MyMind - Sibi Siddharth S Portfolio | Projects" />
+        <meta property="og:title" content="MyMind - Vojtěch Sýkora's Portfolio | Projects" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
         <meta property="og:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />

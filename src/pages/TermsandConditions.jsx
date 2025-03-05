@@ -84,13 +84,13 @@ const TermsandConditions = ({firebaseData}) => {
     <>
     <Helmet>
     {/* Title */}
-    <title>Terms & Conditions | Sibi Siddharth S Portfolio</title>
+    <title>Terms & Conditions | Vojtěch Sýkora Portfolio</title>
 
     {/* Meta Tags */}
     <meta charset="utf-8" />
-    <meta name="author" content="Sibi Siddharth S" />
-    <meta name="description" content="Read the Terms & Conditions for using Sibi Siddharth S's portfolio website and understand the guidelines around intellectual property, website use, and content ownership." />
-    <meta name="keywords" content="Terms & Conditions, Sibi Siddharth S, Portfolio, Website Policy, Intellectual Property, Use of Website, MyMind" />
+    <meta name="author" content="Vojtěch Sýkora" />
+    <meta name="description" content="Read the Terms & Conditions for using Vojtěch Sýkora's portfolio website and understand the guidelines around intellectual property, website use, and content ownership." />
+    <meta name="keywords" content="Terms & Conditions, Vojtěch Sýkora, Portfolio, Website Policy, Intellectual Property, Use of Website, MyMind" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
 
@@ -98,16 +98,16 @@ const TermsandConditions = ({firebaseData}) => {
     <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/#/terms-and-conditions" />
 
     {/* Open Graph Data */}
-    <meta property="og:title" content="Terms & Conditions | Sibi Siddharth S Portfolio" />
+    <meta property="og:title" content="Terms & Conditions | Vojtěch Sýkora Portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sibisiddharth8.github.io/portfolio-react/#/terms-and-conditions" />
     <meta property="og:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
-    <meta property="og:description" content="Read the Terms & Conditions for using Sibi Siddharth S's portfolio website." />
+    <meta property="og:description" content="Read the Terms & Conditions for using Vojtěch Sýkora's portfolio website." />
 
     {/* Twitter Card Data */}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Terms & Conditions | Sibi Siddharth S Portfolio" />
-    <meta name="twitter:description" content="Read the Terms & Conditions for using Sibi Siddharth S's portfolio website." />
+    <meta name="twitter:title" content="Terms & Conditions | Vojtěch Sýkora Portfolio" />
+    <meta name="twitter:description" content="Read the Terms & Conditions for using Vojtěch Sýkora's portfolio website." />
     <meta name="twitter:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
   </Helmet>
     <ThemeProvider theme={darkTheme}>
@@ -142,12 +142,12 @@ const TermsandConditions = ({firebaseData}) => {
 
           <h2>5. Limitation of Liability</h2>
           <p>
-            The content provided on this website is for informational purposes only. While every effort is made to ensure accuracy, <BoldText>Sibi Siddharth S</BoldText> makes no guarantees or warranties of any kind regarding the completeness, reliability, or suitability of the information on the site.
+            The content provided on this website is for informational purposes only. While every effort is made to ensure accuracy, <BoldText>Vojtěch Sýkora</BoldText> makes no guarantees or warranties of any kind regarding the completeness, reliability, or suitability of the information on the site.
           </p>
 
           <h2>6. External Links</h2>
           <p>
-            This website may contain links to external websites. <BoldText>Sibi Siddharth S</BoldText> is not responsible for the content or practices of any linked websites and does not endorse the content of these external sites.
+            This website may contain links to external websites. <BoldText>Vojtěch Sýkora</BoldText> is not responsible for the content or practices of any linked websites and does not endorse the content of these external sites.
           </p>
 
           <h2>7. Privacy Policy</h2>

@@ -132,9 +132,9 @@ const Footer = ({ footerData, links=[] }) => {
     <FooterContainer>
       <FooterWrapper>
         <a href="">
-          <LogoImg src={logo} alt="Sibi Siddharth S Logo MyMind" />
+          <LogoImg src={logo} alt="Vojtěch Sýkora's Logo" />
         </a>
-        <Logo>Sibi Siddharth S</Logo>
+        <Logo>Vojtěch Sýkora</Logo>
         <Nav>
           {links.map((link, index) => (
             <NavLink
@@ -178,7 +178,7 @@ const Footer = ({ footerData, links=[] }) => {
           )}
         </SocialMediaIcons>
         <Copyright>
-          &copy; {new Date().getFullYear()} Sibi Siddharth S. All rights reserved.
+          &copy; {new Date().getFullYear()} Vojtěch Sýkora. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>

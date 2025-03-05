@@ -1,6 +1,6 @@
-# MyMind - Sibi Siddharth S Portfolio
+# MyMind - Vojtěch Sýkora's Portfolio
 
-Welcome to **MyMind**, the dynamic portfolio website of **Sibi Siddharth S**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
+Welcome to **MyMind**, the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
 
 ## 🌐 Live Preview
 

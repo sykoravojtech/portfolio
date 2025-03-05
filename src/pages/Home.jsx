@@ -24,10 +24,10 @@ const Home = ({ firebaseData, openModal, setOpenModal }) => {
   return (
     <>
       <Helmet>
-        <title>Sibi Siddharth S | AI/ML & Web Developer Portfolio</title>
-        <meta name="description" content="Welcome to the portfolio of Sibi Siddharth S, showcasing skills, projects, and experiences in AI/ML and Web Development." />
-        <meta name="keywords" content="MyMind, Sibi Siddharth S, Machine Learning, Python Developer, Frontend Developer, Fullstack Developer, Squad of Creators, Portfolio" />
-        <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/" />
+        <title>Vojtěch Sýkora | AI/ML & Web Developer Portfolio</title>
+        <meta name="description" content="Welcome to the portfolio of Vojtěch Sýkora, showcasing skills, projects, and experiences in AI/ML and Web Development." />
+        <meta name="keywords" content="Vojtěch Sýkora, Machine Learning, Python Developer, Portfolio" />
+        <link rel="canonical" href="https://sykoravojtech.github.io/portfolio/" />
       </Helmet>
 
       <Navbar 

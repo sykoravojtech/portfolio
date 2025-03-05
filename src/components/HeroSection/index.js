@@ -20,6 +20,7 @@ import Typewriter from 'typewriter-effect';
 
 const HeroSection = ({ heroData }) => {
     console.log("Hero data:", heroData); // Debugging print
+
     return (
         <section id="about">
             <HeroContainer>
@@ -28,7 +29,7 @@ const HeroSection = ({ heroData }) => {
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Title>Hi, I am <br /> {heroData?.name}</Title>
+                        <Title>WEBSITE WORK IN PROGRESS: Hi, I am <br /> {heroData?.name}</Title>
                         <TextLoop>
                             I am a
                             <Span>
@@ -53,7 +54,7 @@ const HeroSection = ({ heroData }) => {
                     </HeroLeftContainer>
 
                     <HeroRightContainer>
-                        <Img src={profile_pic} alt={`Sibi Siddharth S - Profile Picture`}/>
+                        <Img src={profile_pic} alt={`Vojtěch Sýkora - Profile Picture`}/>
                     </HeroRightContainer>
                 </HeroInnerContainer>
             </HeroContainer>
