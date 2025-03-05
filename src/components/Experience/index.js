@@ -84,9 +84,6 @@ const ExperienceTimeline = () => {
     });
   }, []);
 
-  console.log("Experience Data:", experiences);
-
-
   return (
     <Container id="experience">
       <Wrapper>

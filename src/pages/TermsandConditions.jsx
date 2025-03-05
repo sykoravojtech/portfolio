@@ -121,7 +121,7 @@ const TermsandConditions = ({firebaseData}) => {
 
           <h2>2. Intellectual Property</h2>
           <p>
-            All content on this website, including text, images, graphics, and code, is the intellectual property of <BoldText>Sibi Siddharth S</BoldText> unless otherwise stated. Unauthorized use, reproduction, or distribution of this material is prohibited without explicit permission.
+            All content on this website, including text, images, graphics, and code, is the intellectual property of <BoldText>Vojtěch Sýkora</BoldText> unless otherwise stated. Unauthorized use, reproduction, or distribution of this material is prohibited without explicit permission.
           </p>
 
           <h2>3. Use of Website</h2>

@@ -72,7 +72,6 @@ const TimelineSection = styled.div`
 `;
 
 const EducationTimeline = ({ education }) => {
-  console.log("Education Data:", education);
   return (
     <Container id="education">
       <Wrapper>
