@@ -24,7 +24,7 @@
 
   <!-- AllProjects page -->
   <url>
-    <loc>https://sibisiddharth8.github.io/portfolio-react/#/AllProjects</loc>
+    <loc>https://sykoravojtech.github.io/portfolio/#/AllProjects</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -81,7 +81,7 @@
 
   <!-- Terms and Conditions page -->
   <url>
-    <loc>https://sibisiddharth8.github.io/portfolio-react/#/TermsandConditions</loc>
+    <loc>https://sykoravojtech.github.io/portfolio/#/TermsandConditions</loc>
     <lastmod>2024-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
