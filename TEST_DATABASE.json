@@ -17,6 +17,7 @@
         ]
       }
     ],
+
     "education": [
       {
         "id": 1,
@@ -30,6 +31,13 @@
         "institution": "ABC University",
         "year": "2018 - 2022"
       }
-    ]
+    ],
+
+    "hero": {
+        "name": "Vojtěch Sýkora",
+        "roles": ["AI/ML Engineer", "Software Developer", "Web Developer"],
+        "description": "Building intelligent systems and innovative software solutions.",
+        "resume": "https://your-resume-link.com"
+    }
 }
   

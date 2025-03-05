@@ -19,6 +19,7 @@ import {
 import Typewriter from 'typewriter-effect';
 
 const HeroSection = ({ heroData }) => {
+    console.log("Hero data:", heroData); // Debugging print
     return (
         <section id="about">
             <HeroContainer>
