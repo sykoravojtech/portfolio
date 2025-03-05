@@ -116,6 +116,13 @@ const SkillImage = styled.img`
 `;
 
 const Skills = ({ skillsData }) => {
+  console.log("SkillsData:", skillsData); // Debugging print
+
+  if (!Array.isArray(skillsData)) {
+    console.error("Error: skillsData is not an array!", skillsData);
+    return <div>Error loading skills data.</div>; // Display fallback UI
+  }
+
   return (
     <Container id="skills">
       <Wrapper>
@@ -126,12 +133,16 @@ const Skills = ({ skillsData }) => {
             <Skill key={index}>
               <SkillTitle>{skill.title}</SkillTitle>
               <SkillList>
-                {skill.skills.map((item, i) => (
-                  <SkillItem key={i}>
-                    <SkillImage src={item.image} alt={`${item.name} - Sibi Siddharth S skills`} />
-                    {item.name}
-                  </SkillItem>
-                ))}
+                {Array.isArray(skill.skills) ? (
+                  skill.skills.map((item, i) => (
+                    <SkillItem key={i}>
+                      <SkillImage src={item.image} alt={`${item.name} skill`} />
+                      {item.name}
+                    </SkillItem>
+                  ))
+                ) : (
+                  <div>Error: skills is not an array!</div>
+                )}
               </SkillList>
             </Skill>
           ))}
@@ -140,5 +151,6 @@ const Skills = ({ skillsData }) => {
     </Container>
   );
 };
+
 
 export default Skills;

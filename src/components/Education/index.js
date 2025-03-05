@@ -72,6 +72,13 @@ const TimelineSection = styled.div`
 `;
 
 const EducationTimeline = ({ education }) => {
+  console.log("Education data:", education); // Debugging print
+
+  if (!Array.isArray(education)) {
+    console.error("Error: education is not an array!", education);
+    return <div>Error loading education data.</div>; // Display fallback UI
+  }
+
   return (
     <Container id="education">
       <Wrapper>
@@ -82,7 +89,7 @@ const EducationTimeline = ({ education }) => {
         <TimelineSection>
           <Timeline>
             {education.map((edu, index) => (
-              <TimelineItem key={edu.id}>
+              <TimelineItem key={edu.id || index}>
                 <TimelineContent sx={{ py: '12px', px: 2 }}>
                   <EducationCard education={edu} />
                 </TimelineContent>
@@ -100,5 +107,6 @@ const EducationTimeline = ({ education }) => {
     </Container>
   );
 };
+
 
 export default EducationTimeline;

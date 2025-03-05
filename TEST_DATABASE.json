@@ -1,0 +1,35 @@
+{
+    "skills": [
+      {
+        "title": "Programming Languages",
+        "skills": [
+          { "name": "Python", "image": "https://example.com/python.png" },
+          { "name": "JavaScript", "image": "https://example.com/javascript.png" },
+          { "name": "C++", "image": "https://example.com/cpp.png" }
+        ]
+      },
+      {
+        "title": "Web Development",
+        "skills": [
+          { "name": "React", "image": "https://example.com/react.png" },
+          { "name": "Node.js", "image": "https://example.com/nodejs.png" },
+          { "name": "Tailwind CSS", "image": "https://example.com/tailwind.png" }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "id": 1,
+        "degree": "Master's in Machine Learning",
+        "institution": "University of XYZ",
+        "year": "2023 - Present"
+      },
+      {
+        "id": 2,
+        "degree": "Bachelor's in Computer Science",
+        "institution": "ABC University",
+        "year": "2018 - 2022"
+      }
+    ]
+}
+  
