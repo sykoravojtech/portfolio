@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { FaGithub } from "react-icons/fa"; 
 import { RiHeartAddFill } from "react-icons/ri";
 
-const githubsponslink = 'https://github.com/sponsors/sibisiddharth8';
+// const githubsponslink = 'https://github.com/sponsors/sibisiddharth8';
 
 const Button = styled.button`
     display: none;
@@ -233,14 +233,14 @@ const ProjectCards = ({ project, setOpenModal }) => {
                         </SocialMediaIcon>
                     )}
 
-                    <SocialMediaIcon 
+                    {/* <SocialMediaIcon 
                         href={githubsponslink} 
                         target="_blank" 
                         aria-label="GitHub Sponsors page"
                         onClick={handleIconClick}
                     >
                         <RiHeartAddFill size={26} />
-                    </SocialMediaIcon>
+                    </SocialMediaIcon> */}
                 </CardIcons>
             </CardDataHolder>
         </Card>
