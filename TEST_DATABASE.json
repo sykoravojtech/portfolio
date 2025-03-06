@@ -45,30 +45,11 @@
           "name": "C++"
         }
       ],
-      "title": "Programming Languages"
+      "title": "Programming Languages+"
     },
     {
       "skills": [
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/pytorch.svg",
-          "name": "PyTorch"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/numpy.svg",
-          "name": "NumPy"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/pandas.svg",
-          "name": "Pandas"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/matplotlib.svg",
-          "name": "Matplotlib"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/tensorflow.svg",
-          "name": "TensorFlow"
-        }
+        
       ],
       "title": "Python Libraries"
     },

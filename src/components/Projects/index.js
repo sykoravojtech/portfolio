@@ -71,7 +71,7 @@ const Projects = ({
         {ShowTitle && <Title>Projects</Title>}
         {IntroText && (
           <Desc>
-            I have worked on a wide range of projects. From web apps to AI/ML applications. Here are some of my projects.
+            I have worked on a wide range of projects. Here are some of my projects.
           </Desc>
         )}
         {projectFilters && (
