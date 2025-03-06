@@ -1,4 +1,4 @@
-# MyMind - Vojtěch Sýkora's Portfolio
+# Vojtěch Sýkora's Portfolio
 
 Just add commit and push and run `npm run deploy` 
 
