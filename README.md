@@ -138,33 +138,48 @@ Feel free to explore and reach out if you have any questions or feedback!
 
 ## Database
 
-### education
-date: '',
-degree: '',
-grade: '',
-desc: '',
-img: '',
-school: ''
+### Bio
+- **name**: Your full name.
+- **description**: Brief personal summary highlighting key skills, interests, or professional goals.
+- **roles**: List of professional roles or areas of expertise (e.g., "Machine Learning Engineer", "Web Developer").
+- **github**: URL to your GitHub profile.
+- **linkedin**: URL to your LinkedIn profile.
+- **insta**: URL to your Instagram or alternative social/professional media.
+- **resume**: URL to your resume or CV.
+
+### skills
+- **title**: The category or type of skills (e.g., "Programming Languages", "Python Libraries", "Development Tools", etc.).
+- **skills**: Array of skills, each with:
+  - **name**: Name of the skill (e.g., "Python").
+  - **image**: URL linking to the skill's logo or representative icon.
+
+### experiences
+- **company**: Name of the organization or company.
+- **date**: Period of employment or involvement (e.g., "Dec 2024 - Present").
+- **desc**: Detailed description of the role and responsibilities.
+- **img**: URL of the company or organization's logo or relevant image.
+- **link**: URL to the company’s website or relevant project page.
+- **role**: Official job title or role designation.
+- **skills**: List of relevant skills or technologies associated with this experience.
 
 ### projects
-title: projectTitle,
-id: '', // id will be assigned below
-category: projectCategory,
-date: projectDate,
-description: projectDescription,
-github: projectGithub,
-image: imageUrl,
-webapp: projectWebapp,
-tags: projectTags.split(','),
-rank: rank,
-member: members,
-ontop: ontop ? 1 : 0,
+- **id**: Unique identifier for each project entry.
+- **title**: The project's official name.
+- **category**: Area or category the project falls into (e.g., "Machine Learning").
+- **date**: The project's duration or completion date (e.g., "Jan 2024 - Mar 2024").
+- **description**: Concise overview detailing objectives, technologies, and outcomes.
+- **github**: URL to the GitHub repository containing the project's code.
+- **image**: URL of a representative image for the project.
+- **webapp**: URL to the deployed application or demo (leave blank if not applicable).
+- **tags**: List of relevant technologies, frameworks, or methodologies used.
+- **rank**: Numerical rank determining the project's display order.
+- **member**: List of team members with their names, GitHub, LinkedIn profiles, and profile images.
+- **ontop**: Indicator (1 or 0) specifying if the project should be highlighted prominently.
 
-### experience
-company: '',
-date: '',
-desc: '',
-img: '',
-link: '',
-role: '',
-skills: '',
+### education
+- **date**: Duration of the educational program (e.g., "2023-2025").
+- **degree**: Name of the degree or certification obtained (e.g., "Master's in Machine Learning").
+- **grade**: Grade or GPA achieved (if applicable; leave empty otherwise).
+- **desc**: Brief description of the educational highlights or thesis topic.
+- **img**: URL of the institution's logo or relevant image.
+- **school**: Name of the educational institution.

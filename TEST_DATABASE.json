@@ -102,6 +102,18 @@
         {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/canva.webp",
           "name": "Canva"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/uk-flag.png",
+          "name": "English (C1)"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/germany-flag.png",
+          "name": "German (B1)"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/czechia-flag.png",
+          "name": "Czech (Native)"
         }
       ],
       "title": "Other Skills"
@@ -179,6 +191,76 @@
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/mit-launchx.jpeg",
       "link": "https://www.launchx.com/"
     }
-  ]
+  ],
+
+  "projects": [
+  {
+    "id": 0,
+    "title": "Project Title",
+    "category": "Web",
+    "date": "Jan 2024 - Mar 2024",
+    "description": "Detailed description of the project, highlighting objectives, technologies used, and achievements.",
+    "github": "https://github.com/yourusername/project-repo",
+    "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cbf-full.jpg",
+    "webapp": "https://yourwebapp.com",
+    "tags": ["React", "Firebase", "Tailwind"],
+    "rank": 1,
+    "member": [
+      {
+        "name": "Member Name",
+        "github": "https://github.com/membergithub",
+        "linkedin": "https://linkedin.com/in/memberlinkedin",
+        "img": "https://link-to-member-image.com/member.png"
+      }
+    ],
+    "ontop": 1
+  },
+  {
+    "id": 1,
+    "title": "VideoMamba_SVT_VideoUnderstanding",
+    "category": "Deep Learning",
+    "date": "Mar 2024",
+    "description": "Investigated the application of transformer-based models for video classification and captioning tasks, focusing on the Self-supervised Video Transformer and Video Mamba models. Adapted the pre-trained SVT encoder for downstream tasks and developed a specialized data processing pipeline to handle complex datasets.",
+    "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
+    "image": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/class_diagram.jpg",
+    "webapp": "",
+    "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning"],
+    "rank": 1,
+    "member": [
+      {
+        "name": "Vojtěch Sýkora",
+        "github": "https://github.com/sykoravojtech",
+        "linkedin": "https://www.linkedin.com/in/vojtech-sykora/",
+        "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/vojtech_sykora.png"
+      },
+      {
+        "name": "Nam Nguyen The",
+        "github": "https://github.com/namnguyenthe",
+        "linkedin": "https://www.linkedin.com/in/nam-nguyen-the/",
+        "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/nam_nguyen_the.png"
+      },
+      {
+        "name": "Leon Trochelmann",
+        "github": "https://github.com/leontrochelmann",
+        "linkedin": "https://www.linkedin.com/in/leon-trochelmann/",
+        "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/leon_trochelmann.png"
+      },
+      {
+        "name": "Swadesh Jana",
+        "github": "https://github.com/swadeshjana",
+        "linkedin": "https://www.linkedin.com/in/swadesh-jana/",
+        "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/swadesh_jana.png"
+      },
+      {
+        "name": "Eric Nazarenus",
+        "github": "https://github.com/ericnazarenus",
+        "linkedin": "https://www.linkedin.com/in/eric-nazarenus/",
+        "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/eric_nazarenus.png"
+      }
+    ],
+    "ontop": 1
+  }
+]
+
 
 }
