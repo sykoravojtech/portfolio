@@ -1,6 +1,6 @@
 import React from 'react';
 import HeroBgAnimation from '../HeroBgAnimation';
-import profile_pic from '../../images/profile_pic-1.png';
+import profile_pic from '../../images/people/vojtech-sykora.png';
 import { 
     HeroContainer, 
     HeroBg, 
