@@ -221,20 +221,20 @@
         {
           "name": "Leon Trochelmann",
           "github": "https://github.com/l-trochelmann",
-          "linkedin": "https://www.linkedin.com/",
+          "linkedin": "",
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"
         },
         {
           "name": "Swadesh Jana",
-          "github": "https://github.com/swadeshjana",
-          "linkedin": "https://www.linkedin.com/in/swadesh-jana/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/swadesh_jana.png"
+          "github": "https://github.com/Swadesh13",
+          "linkedin": "https://www.linkedin.com/in/swadeshjana/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/swadesh-jana.jpeg"
         },
         {
           "name": "Eric Nazarenus",
-          "github": "https://github.com/ericnazarenus",
-          "linkedin": "https://www.linkedin.com/in/eric-nazarenus/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/eric_nazarenus.png"
+          "github": "https://github.com/ernaz100",
+          "linkedin": "https://www.linkedin.com/in/eric-nazarenus-34898718a/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/erik-nazarenus.jpeg"
         }
       ],
       "ontop": 1
