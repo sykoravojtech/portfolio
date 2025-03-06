@@ -1,8 +1,12 @@
 # MyMind - Vojtěch Sýkora's Portfolio
 
-Just add commit and push and run `npm run deploy`
-Remove background https://www.remove.bg/
-png to svg https://www.freeconvert.com/png-to-svg
+Just add commit and push and run `npm run deploy` 
+
+Remove background https://www.remove.bg/ 
+
+png to svg https://www.freeconvert.com/png-to-svg 
+
+skills icons https://www.cleanpng.com/free/programming-language.html 
 
 # resst
 
