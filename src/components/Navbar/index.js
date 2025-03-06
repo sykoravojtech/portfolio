@@ -109,7 +109,10 @@ const Navbar = ({ navbarData, sections }) => {
               </li>
             ))}
             <GitHubButton style={{ padding: '10px 16px', background: theme.primary, color: 'white', width: '100%' }} href={navbarData?.github} target="_blank">
-              Github Profile
+              GitHub
+            </GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: theme.primary, color: 'white', width: '100%' }} href={navbarData?.linkedin} target="_blank">
+              LinkedIn
             </GitHubButton>
           </MobileMenu>
         }
