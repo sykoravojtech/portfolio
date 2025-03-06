@@ -87,7 +87,10 @@ const Navbar = ({ navbarData, sections }) => {
           ))}
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={navbarData?.github} target="_blank">Github Profile</GitHubButton>
+          <GitHubButton href={navbarData?.linkedin} target="_blank">LinkedIn</GitHubButton>
+        </ButtonContainer>
+        <ButtonContainer>
+          <GitHubButton href={navbarData?.github} target="_blank">GitHub</GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
