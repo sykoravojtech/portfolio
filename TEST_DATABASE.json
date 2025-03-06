@@ -1,43 +1,184 @@
 {
-    "skills": [
-      {
-        "title": "Programming Languages",
-        "skills": [
-          { "name": "Python", "image": "https://example.com/python.png" },
-          { "name": "JavaScript", "image": "https://example.com/javascript.png" },
-          { "name": "C++", "image": "https://example.com/cpp.png" }
-        ]
-      },
-      {
-        "title": "Web Development",
-        "skills": [
-          { "name": "React", "image": "https://example.com/react.png" },
-          { "name": "Node.js", "image": "https://example.com/nodejs.png" },
-          { "name": "Tailwind CSS", "image": "https://example.com/tailwind.png" }
-        ]
-      }
-    ],
-
-    "education": [
-      {
-        "id": 1,
-        "degree": "Master's in Machine Learning",
-        "institution": "University of XYZ",
-        "year": "2023 - Present"
-      },
-      {
-        "id": 2,
-        "degree": "Bachelor's in Computer Science",
-        "institution": "ABC University",
-        "year": "2018 - 2022"
-      }
-    ],
-
-    "Bio": {
-        "name": "Vojtěch Sýkora",
-        "roles": ["AI/ML Engineer", "Software Developer", "Web Developer"],
-        "description": "Building intelligent systems and innovative software solutions.",
-        "resume": "https://your-resume-link.com"
+  "Bio": {
+    "description": "Working on exciting Deep Learning projects",
+    "github": "https://github.com/sykoravojtech",
+    "insta": "https://medium.com/@sykoravojtech",
+    "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+    "name": "Vojtěch Sýkora",
+    "resume": "https://your-resume-link.com",
+    "roles": [
+      "Machine Learning Engineer",
+      "Computer Vision Engineer",
+      "Web Developer"
+    ]
+  },
+  "education": [
+    {
+      "date": "2023-2025",
+      "degree": "Master's in Machine Learning",
+      "desc": "Master's Thesis in Graph Extraction",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
+      "school": "University of Tübingen"
+    },
+    {
+      "date": "2020-2023",
+      "degree": "Bachelor's in Computer Science",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
+      "school": "Czech Technical University in Prague"
+    },
+    {
+      "date": "2021-2023",
+      "degree": "Prague AI Minor",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
+      "school": "Charles University & CTU in Prague"
     }
+  ],
+  "skills": [
+    {
+      "skills": [
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/python.svg",
+          "name": "Python"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/cpp.svg",
+          "name": "C++"
+        }
+      ],
+      "title": "Programming Languages"
+    },
+    {
+      "skills": [
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/pytorch.svg",
+          "name": "PyTorch"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/numpy.svg",
+          "name": "NumPy"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/pandas.svg",
+          "name": "Pandas"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/matplotlib.svg",
+          "name": "Matplotlib"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/tensorflow.svg",
+          "name": "TensorFlow"
+        }
+      ],
+      "title": "Python Libraries"
+    },
+    {
+      "skills": [
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/git.svg",
+          "name": "Git"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/github.png",
+          "name": "GitHub"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/linux.svg",
+          "name": "Linux"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/vscode.svg",
+          "name": "VS Code"
+        }
+      ],
+      "title": "Development Tools"
+    },
+    {
+      "skills": [
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/chatGPT.webp",
+          "name": "ChatGPT"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/canva.webp",
+          "name": "Canva"
+        }
+      ],
+      "title": "Other Skills"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Synthavo",
+      "date": "Dec 2024 - Present",
+      "role": "Machine Learning Engineer",
+      "description": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics. Including Object Detection, Instance Segmentation, Rotation Recognition, Text Recognition",
+      "link": "https://www.synthavo.de/en/",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "Object Detection",
+        "Instance Segmentation",
+        "Computer Vision",
+        "Text Recognition",
+        "Binary Segmentation"
+      ]
+    },
+    {
+      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
+      "date": "Mar 2023 - Jul 2023",
+      "role": "Machine Learning Research Assistant",
+      "description": "Implementation of a framework that will link automatic planning tools with the SUMO traffic simulator. Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the above-mentioned framework. Experimentation and evaluation of the proposed algorithms in the project: GAČR, Traffic control in populated areas using automated planning, 23-05575S.",
+      "skills": ["Machine Learning", "Python"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
+      "link": "https://www.ciirc.cvut.cz/"
+    },
+    {
+      "company": "Charles University",
+      "date": "Jul 2020 - Dec 2022",
+      "role": "Data Scientist",
+      "description": "Worked with large databases (600k rows), extracted data using algorithms (MySQL, Python). Animated a choropleth map using GeoJSON, NumPy, Pandas, Plotly.express.",
+      "skills": ["Data Science", "Data Visualization", "Python", "MySQL", "NumPy", "Pandas", "Plotly"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/charles-uni.png",
+      "link": "https://cuni.cz/UKEN-1.html"
+    },
+    {
+      "company": "US Air Force Research Lab & CTU FEE AI Center",
+      "date": "Sep 2021 - Jul 2022",
+      "role": "AI Research Programmer",
+      "description": "Combined classical planning and game theory to design algorithms for adversarial environments. Applied ML techniques to simulations for drone fleet route planning.",
+      "skills": ["Python", "AI Planning", "Artificial Intelligence", "Machine Learning"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
+      "link": "https://www.aic.fel.cvut.cz/"
+    },
+    {
+      "company": "SCILIF, SUNFIBRE",
+      "date": "Jul 2021 - Oct 2021",
+      "role": "Android App Developer",
+      "description": "Designed and developed an Android app to manage Bluetooth Low Energy devices using Kotlin.",
+      "skills": ["Android", "Kotlin", "Bluetooth LE"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/sunfibre-logo.jpeg",
+      "link": "https://www.scilif.com/"
+    },
+    {
+      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
+      "date": "Sep 2017 - Aug 2019",
+      "role": "Robotics Intern",
+      "description": "Automated 3D printing tasks for ABB YUMI robot at CIIRC. Developed a scannable coding system to sort printed parts.",
+      "skills": ["Automation", "Robotics", "3D Printing"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
+      "link": "https://www.ciirc.cvut.cz/"
+    },
+    {
+      "company": "LaunchX Entrepreneurship Program",
+      "date": "Sep 2016 - Jun 2019",
+      "role": "Winner of a MIT Startup Competition",
+      "description": "Developed a startup aiding visually impaired people, won Brussels Demo Day, and invited to MIT for further development.",
+      "skills": ["Project Start-up", "Entrepreneurship"],
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/mit-launchx.jpeg",
+      "link": "https://www.launchx.com/"
+    }
+  ]
+
 }
-  

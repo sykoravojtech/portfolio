@@ -19,7 +19,7 @@ import {
 import Typewriter from 'typewriter-effect';
 
 const HeroSection = ({ heroData }) => {
-    console.log("Hero data:", heroData); // Debugging print
+    // console.log("Hero data:", heroData); // Debugging print
 
     return (
         <section id="about">
@@ -29,7 +29,7 @@ const HeroSection = ({ heroData }) => {
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Title>WEBSITE WORK IN PROGRESS: Hi, I'm <br /> {heroData?.name}</Title>
+                        <Title>Hi, I'm <br /> {heroData?.name}</Title>
                         <TextLoop>
                             I'm a
                             <Span>

@@ -116,7 +116,7 @@ const SkillImage = styled.img`
 `;
 
 const Skills = ({ skillsData }) => {
-  console.log("SkillsData:", skillsData); // Debugging print
+  // console.log("SkillsData:", skillsData); // Debugging print
 
   if (!Array.isArray(skillsData)) {
     console.error("Error: skillsData is not an array!", skillsData);

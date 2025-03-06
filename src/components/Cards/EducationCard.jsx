@@ -123,7 +123,7 @@ const Grade = styled.p`
 `;
 
 const EducationCard = ({ education }) => {
-    console.log("Education data:", education); // Debugging print
+    // console.log("Education data:", education); // Debugging print
     return (
         <Card aria-labelledby={`education-card-${education.id}`} role="article" tabIndex="0">
             <Top>
