@@ -140,6 +140,7 @@ const Skill = styled.p`
 `;
 
 const ExperienceCard = ({ experience }) => {
+    console.log("Experience: ", experience)
     return (
         <Card
             aria-labelledby={`experience-card-${experience.id}`}

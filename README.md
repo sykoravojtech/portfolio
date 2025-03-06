@@ -10,7 +10,7 @@ skills icons https://www.cleanpng.com/free/programming-language.html
 
 # resst
 
-Welcome to **MyMind**, the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
+Welcome to the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
 
 ## 🌐 Live Preview
 
@@ -136,3 +136,35 @@ The portfolio is fully responsive and optimized to provide a seamless experience
 
 Feel free to explore and reach out if you have any questions or feedback!
 
+## Database
+
+### education
+date: '',
+degree: '',
+grade: '',
+desc: '',
+img: '',
+school: ''
+
+### projects
+title: projectTitle,
+id: '', // id will be assigned below
+category: projectCategory,
+date: projectDate,
+description: projectDescription,
+github: projectGithub,
+image: imageUrl,
+webapp: projectWebapp,
+tags: projectTags.split(','),
+rank: rank,
+member: members,
+ontop: ontop ? 1 : 0,
+
+### experience
+company: '',
+date: '',
+desc: '',
+img: '',
+link: '',
+role: '',
+skills: '',

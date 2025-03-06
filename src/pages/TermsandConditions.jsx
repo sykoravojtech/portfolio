@@ -90,7 +90,7 @@ const TermsandConditions = ({firebaseData}) => {
     <meta charset="utf-8" />
     <meta name="author" content="Vojtěch Sýkora" />
     <meta name="description" content="Read the Terms & Conditions for using Vojtěch Sýkora's portfolio website and understand the guidelines around intellectual property, website use, and content ownership." />
-    <meta name="keywords" content="Terms & Conditions, Vojtěch Sýkora, Portfolio, Website Policy, Intellectual Property, Use of Website, MyMind" />
+    <meta name="keywords" content="Terms & Conditions, Vojtěch Sýkora, Portfolio, Website Policy, Intellectual Property, Use of Website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#000000" />
 
