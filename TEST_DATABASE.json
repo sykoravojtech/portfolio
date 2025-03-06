@@ -201,7 +201,7 @@
       "date": "Mar 2024 - Jul 2024",
       "description": "Investigated the application of transformer-based models for video classification and captioning tasks, focusing on the Self-supervised Video Transformer and Video Mamba models. Adapted the pre-trained SVT encoder for downstream tasks and developed a specialized data processing pipeline to handle complex datasets.",
       "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/class_diagram.jpg",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/self-supervised-video-transformer.jpeg",
       "webapp": "",
       "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning"],
       "rank": 1,
