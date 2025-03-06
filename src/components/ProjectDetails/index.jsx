@@ -222,12 +222,16 @@ const index = ({ openModal, setOpenModal }) => {
                     <Member key={member.name}>
                       <MemberImage src={member.img} alt={`Profile of ${member.name}`} />
                       <MemberName>{member.name}</MemberName>
-                      <a href={member.github} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <GitHub />
-                      </a>
-                      <a href={member.linkedin} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                        <LinkedIn />
-                      </a>
+                      {member.github && (
+                        <a href={member.github} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                          <GitHub />
+                        </a>
+                      )}
+                      {member.linkedin && (
+                        <a href={member.linkedin} target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                          <LinkedIn />
+                        </a>
+                      )}
                     </Member>
                   ))}
                 </Members>
