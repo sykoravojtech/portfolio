@@ -76,7 +76,7 @@ These scripts are located in the header section. Retaining them may lead to trac
    ![Experience Section - Mobile](/readme-images/experiencemobile.png)
 
 ### 5. **Projects**
-   - Includes a filter to sort projects by **All**, **Web**, **Deep Learning**, and **Machine Learning**.
+   - Includes a filter to sort projects by **All**, **Programming**, **Deep Learning**, and **Machine Learning**.
    - Displays project cards (3 per row on desktop, 1 per row on mobile) with images, tags, names, durations, descriptions, team members, GitHub links, and a copy link button.
    - Clicking a project opens a modal with a detailed view, including a larger image, full description, team profiles, and links to view the code or live app (if provided).
 

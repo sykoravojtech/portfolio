@@ -24,9 +24,9 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
     <>
       <Helmet>
         <title>Projects | Vojtěch Sýkora's Portfolio</title>
-        <meta name="description" content="MyMind - the portfolio of Sibi Siddharth S, showcasing Web, Machine Learning, Deep Learning, and Python projects." />
-        <meta name="keywords" content="MyMind, Sibi Siddharth S, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
-        <meta name="author" content="Sibi Siddharth S" />
+        <meta name="description" content="The portfolio of Vojtěch Sýkora, showcasing Machine Learning, Deep Learning, and Programming projects." />
+        <meta name="keywords" content="Vojtěch Sýkora, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
+        <meta name="author" content="Vojtěch Sýkora" />
         <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
 
         {/* Open Graph Data */}
@@ -34,12 +34,12 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
         <meta property="og:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
-        <meta property="og:description" content="Explore projects developed by Sibi Siddharth S, showcasing skills in AI/ML and Web Development." />
+        <meta property="og:description" content="Explore projects developed by Vojtěch Sýkora, showcasing skills in AI/ML and Web Development." />
 
         {/* Twitter Card Data */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="MyMind - Projects" />
-        <meta name="twitter:description" content="Explore projects developed by Sibi Siddharth S." />
+        <meta name="twitter:description" content="Explore projects developed by Vojtěch Sýkora." />
         <meta name="twitter:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
       </Helmet>
 
@@ -53,7 +53,7 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
             openModal={openModal} 
             setOpenModal={setOpenModal} 
             defaultfilter="all"
-            projectFilters={['all', 'Web', 'Deep Learning', 'Machine Learning']}
+            projectFilters={['all', 'Deep Learning', 'Machine Learning', 'Programming']}
             ViewAllCard={0}
             ShowTitle={null}
             IntroText={1}
