@@ -221,9 +221,10 @@
       "description": "This project explores transformer-based models, specifically Self-supervised Video Transformer (SVT) and Video Mamba (VM), for video classification and captioning tasks. Using the complex Charades dataset, the project evaluates these models' capability to generalize and handle intricate human interactions without extensive labeled data. Key achievements include adapting transformer architectures, developing a specialized data pipeline, and comparing SVT and VM performances, highlighting their potential for efficient video understanding.",
       "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
       "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/self-supervised-video-transformer.jpeg",
+      "paper": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/doc/ML_Practical_LENSV7.pdf",
       "webapp": "",
       "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning"],
-      "rank": 1,
+      "rank": 10,
       "member": [
         {
           "name": "Vojtěch Sýkora",
@@ -265,12 +266,12 @@
       "title": "Instance Segmentation Challenge",
       "category": "Deep Learning",
       "date": "Oct 2024",
-      "description": "Participated in an instance segmentation challenge aimed at accurately segmenting and classifying various objects within images. Employed advanced deep learning models, fine-tuning instance segmentation architectures to improve accuracy and performance.",
+      "description": "This project leverages Detectron2, a transformer-based detection model, for accurate 2D object segmentation using data with bounding boxes and masks. Using a pre-trained Mask R-CNN architecture, it effectively identifies and segments diverse objects, demonstrating high accuracy even on challenging datasets. The approach achieved a strong overall Average Precision (AP) of 46.1, highlighting its effectiveness for detailed image analysis tasks.",
       "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/instance-segmentation.png",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/rcnn.png",
       "webapp": "",
-      "tags": ["Instance Segmentation", "Computer Vision", "Deep Learning"],
-      "rank": 2,
+      "tags": ["Instance Segmentation", "Detectron2", "Mask R-CNN"],
+      "rank": 40,
       "member": [
         {
           "name": "Vojtěch Sýkora",
@@ -280,6 +281,94 @@
         }
       ],
       "ontop": 1
+    },
+
+    {
+      "id": 2,
+      "title": "Proximal Policy Optimization for Car Racing",
+      "category": "Deep Learning",
+      "date": "Jul 2022 - Jun 2023",
+      "description": "Implemented Proximal Policy Optimization (PPO) algorithm for training reinforcement learning agents in the OpenAI CarRacing environment with custom Wind. Developed robust training strategies, optimized hyperparameters, and thoroughly evaluated agent performance, culminating in a comprehensive thesis and analysis of PPO effectiveness in autonomous driving tasks.",
+      "github": "https://github.com/sykoravojtech/PPOthesis/tree/main",
+      "paper": "https://raw.githubusercontent.com/sykoravojtech/PPOthesis/main/PPO_Thesis_Sykora.pdf",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/PPOCarRacing/main/car-driving.gif",
+      "webapp": "",
+      "tags": ["Reinforcement Learning", "PPO", "OpenAI Gym", "Autonomous Driving"],
+      "rank": 50,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        }
+      ],
+      "ontop": 1
+    },
+
+    {
+      "id": 3,
+      "title": "Ischemic Heart Disease Analysis in Germany",
+      "category": "Machine Learning",
+      "date": "Oct 2023 - Apr 2024",
+      "description": "Conducted a comprehensive analysis of ischemic heart disease (IHD) in Germany, identifying its prominence among cardiovascular diseases and its significant contribution to the national death rate. Applied statistical analysis and Random Forest regression modeling to assess the influence of healthcare spending, alcohol consumption, fat consumption, and demographic factors like median age. The project revealed that alcohol consumption, median age, and healthcare expenditures significantly affect the death rate of IHD, while the influence of fat consumption remained inconclusive. The analysis provided insights into Germany's lifestyle factors and healthcare efficiency, suggesting avenues for public health improvements.",
+      "github": "https://github.com/sykoravojtech/IHD_germany_2024",
+      "paper": "https://raw.githubusercontent.com/IHD_germany_2024/main/doc/IHD_germany_2024/DataLit_report_2024.pdf",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/IHD_germany_2024/main/assets/prediction1.png",
+      "webapp": "",
+      "tags": [
+        "Machine Learning",
+        "Random Forest",
+        "SHAP Analysis",
+        "Public Health",
+        "Cardiovascular Disease"
+      ],
+      "rank": 60,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        },
+        {
+          "name": "Denis Kovačević",
+          "github": "https://github.com/QuackyPenguin",
+          "linkedin": "https://www.linkedin.com/in/denis-kovacevic-445182204/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/denis-kovacevic.jpeg"
+        },
+        {
+          "name": "Nam Nguyen The",
+          "github": "https://github.com/gallegi",
+          "linkedin": "https://www.linkedin.com/in/thenam/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg"
+        }
+      ],
+      "ontop": 1
+    },
+    
+    
+
+    {
+      "id": 4,
+      "title": "GeoJson Map Animation",
+      "category": "Programming",
+      "date": "2022",
+      "description": "This project visualizes population movement and demographic trends using interactive maps created with GeoPandas, Numpy, and Plotly. It provides dynamic, data-driven insights into population patterns across regions over time, leveraging geospatial analysis to clearly represent complex demographic shifts.",
+      "github": "https://github.com/sykoravojtech/geojson-map-animation",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/geojson-map-animation/main/orp.gif",
+      "webapp": "",
+      "tags": ["Animation", "Python", "GeoJSON", "GeoPandas", "Plotly"],
+      "rank": 100,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        }
+      ],
+      "ontop": 0
     }
   ]
 
