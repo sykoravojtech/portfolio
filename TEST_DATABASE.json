@@ -195,7 +195,7 @@
 
   "projects": [
     {
-      "id": 1,
+      "id": 0,
       "title": "VideoMamba_SVT_VideoUnderstanding",
       "category": "Deep Learning",
       "date": "Mar 2024 - Jul 2024",
@@ -210,7 +210,7 @@
           "name": "Vojtěch Sýkora",
           "github": "https://github.com/sykoravojtech",
           "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://media.licdn.com/media/AAYQAQSOAAgAAQAAAAAAAB-zrMZEDXI2T62PSuT6kpB6qg.png"
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
         },
         {
           "name": "Nam Nguyen The",
@@ -220,9 +220,9 @@
         },
         {
           "name": "Leon Trochelmann",
-          "github": "https://github.com/leontrochelmann",
-          "linkedin": "https://www.linkedin.com/in/leon-trochelmann/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/assets/leon_trochelmann.png"
+          "github": "https://github.com/l-trochelmann",
+          "linkedin": "",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"
         },
         {
           "name": "Swadesh Jana",
