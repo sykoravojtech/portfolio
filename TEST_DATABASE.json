@@ -267,7 +267,7 @@
       "date": "Oct 2024",
       "description": "Participated in an instance segmentation challenge aimed at accurately segmenting and classifying various objects within images. Employed advanced deep learning models, fine-tuning instance segmentation architectures to improve accuracy and performance.",
       "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/prediction1.png",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/instance-segmentation.png",
       "webapp": "",
       "tags": ["Instance Segmentation", "Computer Vision", "Deep Learning"],
       "rank": 2,
