@@ -391,6 +391,24 @@
           "github": "https://github.com/sykoravojtech",
           "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        },
+        {
+          "name": "Daniel Eskandar",
+          "github": "https://github.com/danieleskandar",
+          "linkedin": "https://www.linkedin.com/in/daniel-eskandar-6422a21b1/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/daniel-eskandar.png"
+        },
+        {
+          "name": "Carla López Martínez",
+          "github": "https://github.com/carla-lm",
+          "linkedin": "https://www.linkedin.com/in/carla-lopez-martinez/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/carla-lopez-martinez.jpeg"
+        },
+        {
+          "name": "Melis Oktayoğlu",
+          "github": "https://github.com/moktayoglu",
+          "linkedin": "https://www.linkedin.com/in/melis-oktayoglu/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/melis-oktayoglu.jpeg"
         }
       ],
       "ontop": 0
