@@ -8,6 +8,7 @@ import MediumIcon from './medium.svg';
 import { GitHub } from '@mui/icons-material';
 import logo from '../../images/MyLogo.png';
 import { Link } from 'react-scroll'; // Import Link from react-scroll
+import { IconButton, Tooltip } from '@mui/material';
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -152,36 +153,47 @@ const Footer = ({ footerData, links=[] }) => {
           ))}
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon
-            href={footerData?.github || '#'}
-            target="_blank"
-            aria-label="GitHub profile"
-          >
-            <GitHub />
-          </SocialMediaIcon>
-          <SocialMediaIcon
-            href={footerData?.linkedin || '#'}
-            target="_blank"
-            aria-label="LinkedIn profile"
-          >
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon
-            href={footerData?.insta || '#'}
-            target="_blank"
-            aria-label="Medium profile"
-          >
-            {/* <InstagramIcon /> */}
-            <img src={MediumIcon} alt="Medium" width="24" height="24" />
-          </SocialMediaIcon>
+
+          <Tooltip title="GitHub">
+            <SocialMediaIcon
+              href={footerData?.github || '#'}
+              target="_blank"
+              aria-label="GitHub profile"
+            >
+              <GitHub />
+            </SocialMediaIcon>
+          </Tooltip>
+
+          <Tooltip title="LinkedIn">
+            <SocialMediaIcon
+              href={footerData?.linkedin || '#'}
+              target="_blank"
+              aria-label="LinkedIn profile"
+            >
+              <LinkedInIcon />
+            </SocialMediaIcon>
+          </Tooltip>
+
+          <Tooltip title="Medium">
+            <SocialMediaIcon
+              href={footerData?.insta || '#'}
+              target="_blank"
+              aria-label="Medium profile"
+            >
+              {/* <InstagramIcon /> */}
+              <img src={MediumIcon} alt="Medium" width="24" height="24" />
+            </SocialMediaIcon>
+          </Tooltip>
           
-          <SocialMediaIcon
-            href={footerData?.email || '#'}
-            target="_blank"
-            aria-label="Email"
-          >
-            <EmailIcon />
-          </SocialMediaIcon>
+          <Tooltip title="Send Email">
+            <SocialMediaIcon
+              href={`mailto:${footerData?.email}` || 'mailto:sykoravojtech01@gmail.com'}
+              target="_blank"
+              aria-label="Email"
+            >
+              <EmailIcon />
+            </SocialMediaIcon>
+          </Tooltip>
 
           {/* {deferredPrompt && (
             <InstallIconWrapper onClick={handleInstallClick} aria-label="Install App">

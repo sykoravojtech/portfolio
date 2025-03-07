@@ -5,7 +5,7 @@
     "insta": "https://medium.com/@sykoravojtech",
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
     "name": "Vojtěch Sýkora",
-    "resume": "https://your-resume-link.com",
+    "resume": "https://drive.google.com/file/d/1Z-jZ92ZlAFE-VeAzvFuyGkOyQcSaBNsK/view?usp=sharing",
     "email": "sykoravojtech01@gmail.com",
     "roles": [
       "Machine Learning Engineer",
@@ -141,7 +141,7 @@
       "company": "Synthavo",
       "date": "Dec 2024 - Present",
       "role": "Machine Learning Engineer",
-      "description": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics. Including Object Detection, Instance Segmentation, Rotation Recognition, Text Recognition",
+      "desc": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics. Including Object Detection, Instance Segmentation, Rotation Recognition, Text Recognition",
       "link": "https://www.synthavo.de/en/",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
       "skills": [
@@ -158,7 +158,7 @@
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
       "date": "Mar 2023 - Jul 2023",
       "role": "Machine Learning Research Assistant",
-      "description": "Implementation of a framework that will link automatic planning tools with the SUMO traffic simulator. Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the above-mentioned framework. Experimentation and evaluation of the proposed algorithms in the project: GAČR, Traffic control in populated areas using automated planning, 23-05575S.",
+      "desc": "Implementation of a framework that will link automatic planning tools with the SUMO traffic simulator. Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the above-mentioned framework. Experimentation and evaluation of the proposed algorithms in the project: GAČR, Traffic control in populated areas using automated planning, 23-05575S.",
       "skills": ["Machine Learning", "Python"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
       "link": "https://www.ciirc.cvut.cz/"
@@ -167,7 +167,7 @@
       "company": "Charles University",
       "date": "Jul 2020 - Dec 2022",
       "role": "Data Scientist",
-      "description": "Worked with large databases (600k rows), extracted data using algorithms (MySQL, Python). Animated a choropleth map using GeoJSON, NumPy, Pandas, Plotly.express.",
+      "desc": "Worked with large databases (600k rows), extracted data using algorithms (MySQL, Python). Animated a choropleth map using GeoJSON, NumPy, Pandas, Plotly.express.",
       "skills": ["Data Science", "Data Visualization", "Python", "MySQL", "NumPy", "Pandas", "Plotly"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/charles-uni.png",
       "link": "https://cuni.cz/UKEN-1.html"
@@ -176,7 +176,7 @@
       "company": "US Air Force Research Lab & CTU FEE AI Center",
       "date": "Sep 2021 - Jul 2022",
       "role": "AI Research Programmer",
-      "description": "Combined classical planning and game theory to design algorithms for adversarial environments. Applied ML techniques to simulations for drone fleet route planning.",
+      "desc": "Combined classical planning and game theory to design algorithms for adversarial environments. Applied ML techniques to simulations for drone fleet route planning.",
       "skills": ["Python", "AI Planning", "Artificial Intelligence", "Machine Learning"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
       "link": "https://www.aic.fel.cvut.cz/"
@@ -185,7 +185,7 @@
       "company": "SCILIF, SUNFIBRE",
       "date": "Jul 2021 - Oct 2021",
       "role": "Android App Developer",
-      "description": "Designed and developed an Android app to manage Bluetooth Low Energy devices using Kotlin.",
+      "desc": "Designed and developed an Android app to manage Bluetooth Low Energy devices using Kotlin.",
       "skills": ["Android", "Kotlin", "Bluetooth LE"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/sunfibre-logo.jpeg",
       "link": "https://www.scilif.com/"
@@ -194,7 +194,7 @@
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
       "date": "Sep 2017 - Aug 2019",
       "role": "Robotics Intern",
-      "description": "Automated 3D printing tasks for ABB YUMI robot at CIIRC. Developed a scannable coding system to sort printed parts.",
+      "desc": "Automated 3D printing tasks for ABB YUMI robot at CIIRC. Developed a scannable coding system to sort printed parts.",
       "skills": ["Automation", "Robotics", "3D Printing"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
       "link": "https://www.ciirc.cvut.cz/"
@@ -203,7 +203,7 @@
       "company": "LaunchX Entrepreneurship Program",
       "date": "Sep 2016 - Jun 2019",
       "role": "Winner of a MIT Startup Competition",
-      "description": "Developed a startup aiding visually impaired people, won Brussels Demo Day, and invited to MIT for further development.",
+      "desc": "Developed a startup aiding visually impaired people, won Brussels Demo Day, and invited to MIT for further development.",
       "skills": ["Project Start-up", "Entrepreneurship"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/mit-launchx.jpeg",
       "link": "https://www.launchx.com/"
