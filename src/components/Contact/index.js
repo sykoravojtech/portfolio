@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import styled from 'styled-components';
+import styled, { useTheme } from 'styled-components';
 import { IconButton, Snackbar, Tooltip } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import ContentCopyIcon from '@mui/icons-material/ContentCopy';
@@ -50,8 +50,9 @@ const EmailText = styled.span`
 `;
 
 const Contact = () => {
+  const theme = useTheme();
   const email = "sykoravojtech01@gmail.com";
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
@@ -65,13 +66,13 @@ const Contact = () => {
       <EmailContainer>
         <Tooltip title="Send Email">
           <IconButton href={`mailto:${email}`} aria-label="send email">
-            <EmailIcon />
+            <EmailIcon sx={{ color: theme.text_primary }} />
           </IconButton>
         </Tooltip>
         <EmailText>{email}</EmailText>
         <Tooltip title="Copy Email">
           <IconButton onClick={handleCopy} aria-label="copy email">
-            <ContentCopyIcon />
+            <ContentCopyIcon sx={{ color: theme.text_primary }} />
           </IconButton>
         </Tooltip>
       </EmailContainer>
