@@ -34,7 +34,7 @@
       "date": "2021-2023",
       "degree": "Prague AI Minor",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
-      "school": "Charles University & CTU in Prague"
+      "school": "prg.ai & Charles University & CTU in Prague"
     }
   ],
 
@@ -239,12 +239,6 @@
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg"
         },
         {
-          "name": "Leon Trochelmann",
-          "github": "https://github.com/l-trochelmann",
-          "linkedin": "",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"
-        },
-        {
           "name": "Swadesh Jana",
           "github": "https://github.com/Swadesh13",
           "linkedin": "https://www.linkedin.com/in/swadeshjana/",
@@ -255,6 +249,12 @@
           "github": "https://github.com/ernaz100",
           "linkedin": "https://www.linkedin.com/in/eric-nazarenus-34898718a/",
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/erik-nazarenus.jpeg"
+        },
+        {
+          "name": "Leon Trochelmann",
+          "github": "https://github.com/l-trochelmann",
+          "linkedin": "",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"
         }
       ],
       "ontop": 1
@@ -343,7 +343,7 @@
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg"
         }
       ],
-      "ontop": 1
+      "ontop": 0
     },
     
     

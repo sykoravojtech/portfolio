@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
-import { Snackbar, Alert } from '@mui/material';
+import { IconButton, Snackbar, Tooltip , Alert } from '@mui/material';
+import EmailIcon from '@mui/icons-material/Email';
 import { useNavigate } from 'react-router-dom';
 
 const Container = styled.div`
@@ -168,87 +169,141 @@ const ContactButton = styled.input`
   }
 `;
 
+const EmailContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: ${({ theme }) => theme.card};
+  padding: 12px 20px;
+  border-radius: 12px;
+  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+`;
+
+const EmailText = styled.span`
+  font-size: 18px;
+  color: ${({ theme }) => theme.text_primary};
+  user-select: text;
+`;
+
+// const Contact = () => {
+//   const navigate = useNavigate();
+//   const handleClick = () => {
+//     navigate('/TermsandConditions');
+//   };
+
+//   const [open, setOpen] = useState({ open: false, message: '', severity: 'success' });
+//   const [termsAccepted, setTermsAccepted] = useState(false);
+//   const form = useRef();
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
+//       .then((result) => {
+//         setOpen({ open: true, message: 'Email sent successfully!', severity: 'success' });
+//         form.current.reset();
+//         setTermsAccepted(false);
+//       }, (error) => {
+//         console.log(error.text);
+//         setOpen({ open: true, message: 'Failed to send email. Please try again.', severity: 'error' });
+//       });
+//   };
+
+//   return (
+//     <Container>
+//       <Wrapper>
+//         <Title>Contact</Title>
+//         <Desc>Feel free to reach out to me for any questions or collaboration!</Desc>
+//         <ContactForm ref={form} onSubmit={handleSubmit}>
+//           <ContactTitle>Email Me 🚀</ContactTitle>
+//           <ContactInput
+//             placeholder="Your Email"
+//             name="from_email"
+//             type="email"
+//             required
+//             aria-label="Your Email"
+//           />
+//           <ContactInput
+//             placeholder="Your Name"
+//             name="from_name"
+//             type="text"
+//             required
+//             aria-label="Your Name"
+//           />
+//           <ContactInput
+//             placeholder="Subject"
+//             name="subject"
+//             type="text"
+//             required
+//             aria-label="Subject"
+//           />
+//           <ContactInputMessage
+//             placeholder="Message"
+//             rows="4"
+//             name="message"
+//             required
+//             aria-label="Message"
+//           />
+//           <TcContainer>
+//             <input
+//               type="checkbox"
+//               checked={termsAccepted}
+//               onChange={(e) => setTermsAccepted(e.target.checked)}
+//               aria-label="Accept terms and conditions"
+//             />
+//             <TcText>
+//               I agree with the <TC onClick={handleClick} >Terms and Conditions</TC>
+//             </TcText>
+//           </TcContainer>
+//           <ContactButton type="submit" value="Send" disabled={!termsAccepted} aria-label="Send Email" />
+//         </ContactForm>
+//         <Snackbar
+//           open={open.open}
+//           autoHideDuration={6000}
+//           onClose={() => setOpen(prev => ({ ...prev, open: false }))}
+//         >
+//           <Alert onClose={() => setOpen(prev => ({ ...prev, open: false }))} severity={open.severity}>
+//             {open.message}
+//           </Alert>
+//         </Snackbar>
+//       </Wrapper>
+//     </Container>
+//   );
+// };
+
+// export default Contact;
+
 const Contact = () => {
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate('/TermsandConditions');
-  };
+  const [open, setOpen] = useState(false);
+  const emailAddress = 'sykoravojtech01@gmail.com';
 
-  const [open, setOpen] = useState({ open: false, message: '', severity: 'success' });
-  const [termsAccepted, setTermsAccepted] = useState(false);
-  const form = useRef();
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID, process.env.REACT_APP_EMAILJS_TEMPLATE_ID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
-      .then((result) => {
-        setOpen({ open: true, message: 'Email sent successfully!', severity: 'success' });
-        form.current.reset();
-        setTermsAccepted(false);
-      }, (error) => {
-        console.log(error.text);
-        setOpen({ open: true, message: 'Failed to send email. Please try again.', severity: 'error' });
-      });
+  const handleCopy = () => {
+    navigator.clipboard.writeText(emailAddress);
+    setOpen(true);
   };
 
   return (
     <Container>
-      <Wrapper>
-        <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or collaboration!</Desc>
-        <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput
-            placeholder="Your Email"
-            name="from_email"
-            type="email"
-            required
-            aria-label="Your Email"
-          />
-          <ContactInput
-            placeholder="Your Name"
-            name="from_name"
-            type="text"
-            required
-            aria-label="Your Name"
-          />
-          <ContactInput
-            placeholder="Subject"
-            name="subject"
-            type="text"
-            required
-            aria-label="Subject"
-          />
-          <ContactInputMessage
-            placeholder="Message"
-            rows="4"
-            name="message"
-            required
-            aria-label="Message"
-          />
-          <TcContainer>
-            <input
-              type="checkbox"
-              checked={termsAccepted}
-              onChange={(e) => setTermsAccepted(e.target.checked)}
-              aria-label="Accept terms and conditions"
-            />
-            <TcText>
-              I agree with the <TC onClick={handleClick} >Terms and Conditions</TC>
-            </TcText>
-          </TcContainer>
-          <ContactButton type="submit" value="Send" disabled={!termsAccepted} aria-label="Send Email" />
-        </ContactForm>
-        <Snackbar
-          open={open.open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(prev => ({ ...prev, open: false }))}
-        >
-          <Alert onClose={() => setOpen(prev => ({ ...prev, open: false }))} severity={open.severity}>
-            {open.message}
-          </Alert>
-        </Snackbar>
-      </Wrapper>
+      <Title>Contact</Title>
+      <Desc>Feel free to reach out to me for any questions or collaboration!</Desc>
+      <EmailContainer>
+        <Tooltip title="Send Email">
+          <IconButton href={`mailto:${emailAddress}`} aria-label="send email">
+            <EmailIcon fontSize="large" />
+          </IconButton>
+        </Tooltip>
+        <EmailText>{emailAddress}</EmailText>
+        <Tooltip title="Copy Email">
+          <IconButton onClick={handleCopy} aria-label="copy email">
+            <ContentCopyIcon />
+          </IconButton>
+        </Tooltip>
+      </EmailContainer>
+      <Snackbar
+        open={open}
+        autoHideDuration={3000}
+        message="Email copied to clipboard!"
+        onClose={() => setOpen(false)}
+      />
     </Container>
   );
 };
