@@ -53,10 +53,13 @@ const Contact = () => {
   const theme = useTheme();
   const email = "sykoravojtech01@gmail.com";
   const [open, setOpen] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
-    setOpen(true);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+    setOpen(true); // optional: if you still want the Snackbar
   };
 
   return (
@@ -70,7 +73,7 @@ const Contact = () => {
           </IconButton>
         </Tooltip>
         <EmailText>{email}</EmailText>
-        <Tooltip title="Copy Email">
+        <Tooltip title={copied ? "Copied!" : "Copy Email"}>
           <IconButton onClick={handleCopy} aria-label="copy email">
             <ContentCopyIcon sx={{ color: theme.text_primary }} />
           </IconButton>
