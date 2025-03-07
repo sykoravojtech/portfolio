@@ -6,6 +6,7 @@
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
     "name": "Vojtěch Sýkora",
     "resume": "https://your-resume-link.com",
+    "email": "sykoravojtech01@gmail.com",
     "roles": [
       "Machine Learning Engineer",
       "Computer Vision Engineer",
@@ -20,19 +21,21 @@
     {
       "date": "2023-2025",
       "degree": "Master's in Machine Learning",
-      "desc": "Master's Thesis in Graph Extraction",
+      "desc": "This excellent opportunity was also possible thanks to a full scholarship from the DAAD German Academic Exchange Service.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
       "school": "University of Tübingen"
     },
     {
       "date": "2020-2023",
-      "degree": "Bachelor's in Computer Science",
+      "degree": "Bachelor's in Open Informatics",
+      "desc": "Computer Science studies with a focus on AI. Thesis focused on Proximal Policy Optimization for Car Racing with Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
       "school": "Czech Technical University in Prague"
     },
     {
       "date": "2021-2023",
       "degree": "Prague AI Minor",
+      "desc": "An interdisciplinary AI curriculum bringing together students, teachers, and researchers from prestigious Prague universities.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
       "school": "prg.ai & Charles University & CTU in Prague"
     }
@@ -373,7 +376,7 @@
       "title": "BioVis Food Data Visualization",
       "category": "Programming",
       "date": "Oct 2023 - Feb 2024",
-      "description": "Developed interactive data visualizations for dietary and nutritional data using advanced JavaScript libraries (D3.js). The project aimed to enhance understanding and accessibility of complex nutritional information through clear, user-friendly visual interfaces.",
+      "description": "This project analyzed a large dataset of 180,000+ recipes from Food.com to visualize ingredient trends, nutritional content, and cuisine popularity across global regions. Using using advanced JavaScript libraries (D3.js), the analysis explored ingredient similarities, dietary patterns, and popularity dynamics, offering interactive filters for detailed cuisine comparisons.",
       "github": "https://github.com/sykoravojtech/BioVis_food/tree/main",
       "paper": "",
       "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/biovis-data.png",

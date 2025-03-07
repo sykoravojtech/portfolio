@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email';
 // import GetAppIcon from '@mui/icons-material/GetApp';
 import MediumIcon from './medium.svg';
 import { GitHub } from '@mui/icons-material';
@@ -173,6 +174,15 @@ const Footer = ({ footerData, links=[] }) => {
             {/* <InstagramIcon /> */}
             <img src={MediumIcon} alt="Medium" width="24" height="24" />
           </SocialMediaIcon>
+          
+          <SocialMediaIcon
+            href={footerData?.email || '#'}
+            target="_blank"
+            aria-label="Email"
+          >
+            <EmailIcon />
+          </SocialMediaIcon>
+
           {/* {deferredPrompt && (
             <InstallIconWrapper onClick={handleInstallClick} aria-label="Install App">
               <GetAppIcon />
