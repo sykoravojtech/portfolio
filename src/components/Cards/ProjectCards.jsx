@@ -216,7 +216,7 @@ const ProjectCards = ({ project, setOpenModal }) => {
                     {project.member?.map((member, index) => (
                         <Avatar
                             key={index}
-                            src={member.img}
+                            src={member.img || "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"}
                             alt={`Profile of ${member.name}`}
                         />
                     ))}
