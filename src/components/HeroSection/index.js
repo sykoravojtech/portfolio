@@ -20,7 +20,7 @@ import Typewriter from 'typewriter-effect';
 import styled, { useTheme } from 'styled-components';
 
 const NameSpan = styled.span`
-    color: ${({ theme }) => theme.text_primary};
+    color: ${({ theme }) => theme.primary};
 `;
 
 const HeroSection = ({ heroData }) => {
