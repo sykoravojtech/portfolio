@@ -79,7 +79,7 @@
           "name": "C++"
         }
       ],
-      "title": "Programming Languages+"
+      "title": "Programming Languages"
     },
     {
       "skills": [
@@ -254,7 +254,7 @@
           "name": "Leon Trochelmann",
           "github": "https://github.com/l-trochelmann",
           "linkedin": "",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"
+          "img": ""
         }
       ],
       "ontop": 1
@@ -345,8 +345,6 @@
       ],
       "ontop": 0
     },
-    
-    
 
     {
       "id": 4,
@@ -368,7 +366,36 @@
         }
       ],
       "ontop": 0
+    },
+
+    {
+      "id": 5,
+      "title": "BioVis Food Data Visualization",
+      "category": "Programming",
+      "date": "Oct 2023 - Feb 2024",
+      "description": "Developed interactive data visualizations for dietary and nutritional data using advanced JavaScript libraries (D3.js). The project aimed to enhance understanding and accessibility of complex nutritional information through clear, user-friendly visual interfaces.",
+      "github": "https://github.com/sykoravojtech/BioVis_food/tree/main",
+      "paper": "",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/biovis-data.png",
+      "webapp": "",
+      "tags": [
+        "JavaScript",
+        "Data Visualization",
+        "D3.js",
+        "Interactive Visualization"
+      ],
+      "rank": 70,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        }
+      ],
+      "ontop": 0
     }
+    
   ]
 
 

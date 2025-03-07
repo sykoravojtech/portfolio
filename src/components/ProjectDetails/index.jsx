@@ -205,7 +205,11 @@ const index = ({ openModal, setOpenModal }) => {
                 setOpenModal({ state: false, project: null });
               }}
             />
-            <Image src={project?.image} alt={`Image for project titled ${project.title} - by Vojtěch Sýkora`}/>
+            <Image
+              src={project?.image || "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/anon.jpeg"}
+              alt={`Image for project titled ${project.title} - by Vojtěch Sýkora`}
+            />
+
             <Title>{project?.title}</Title>
             <Date>{project.date}</Date>
             <Tags>
