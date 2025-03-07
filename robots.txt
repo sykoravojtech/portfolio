@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://sibisiddharth8.github.io/portfolio-react/sitemap.xml
+Sitemap: https://sykoravojtech.github.io/portfolio/sitemap.xml
