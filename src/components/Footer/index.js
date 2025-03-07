@@ -179,9 +179,9 @@ const Footer = ({ footerData, links=[] }) => {
             </InstallIconWrapper>
           )} */}
         </SocialMediaIcons>
-        <Copyright>
+        {/* <Copyright>
           &copy; {new Date().getFullYear()} Vojtěch Sýkora. All rights reserved.
-        </Copyright>
+        </Copyright> */}
       </FooterWrapper>
     </FooterContainer>
   );
