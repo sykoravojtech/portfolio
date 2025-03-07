@@ -17,9 +17,15 @@ import {
     ResumeButton 
 } from './HeroStyle';
 import Typewriter from 'typewriter-effect';
+import styled, { useTheme } from 'styled-components';
+
+const NameSpan = styled.span`
+    color: ${({ theme }) => theme.text_primary};
+`;
 
 const HeroSection = ({ heroData }) => {
     // console.log("Hero data:", heroData); // Debugging print
+    const theme = useTheme();
 
     return (
         <section id="about">
@@ -29,7 +35,10 @@ const HeroSection = ({ heroData }) => {
                 </HeroBg>
                 <HeroInnerContainer>
                     <HeroLeftContainer>
-                        <Title>Hi, I'm <br /> {heroData?.name}</Title>
+                        <Title>
+                            Hi, I'm <br /> 
+                            <NameSpan>{heroData?.name}</NameSpan>
+                        </Title>
                         <TextLoop>
                             I'm a
                             <Span>

@@ -1,6 +1,6 @@
 {
   "Bio": {
-    "description": "Working on exciting Deep Learning projects",
+    "description": "As I approach the completion of my Master's in Machine Learning, I'm excited to embark on my next adventure starting October 2025. Driven by a passion for harnessing Deep Learning and Computer Vision, I aim to create innovative solutions that shape the future and positively impact lives. Currently seeking full-time opportunities where I can contribute to cutting-edge projects and collaborate with forward-thinking teams.",
     "github": "https://github.com/sykoravojtech",
     "insta": "https://medium.com/@sykoravojtech",
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
@@ -9,8 +9,7 @@
     "email": "sykoravojtech01@gmail.com",
     "roles": [
       "Machine Learning Engineer",
-      "Computer Vision Engineer",
-      "Web Developer"
+      "Computer Vision Engineer"
     ]
   },
 
@@ -28,7 +27,7 @@
     {
       "date": "2020-2023",
       "degree": "Bachelor's in Open Informatics",
-      "desc": "Computer Science studies with a focus on AI. Thesis focused on Proximal Policy Optimization for Car Racing with Wind.",
+      "desc": "Computer Science studies with a focus on Artificial Intelligence. Thesis focused on Proximal Policy Optimization for Car Racing with unpredictable Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
       "school": "Czech Technical University in Prague"
     },
@@ -141,7 +140,7 @@
       "company": "Synthavo",
       "date": "Dec 2024 - Present",
       "role": "Machine Learning Engineer",
-      "desc": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics. Including Object Detection, Instance Segmentation, Rotation Recognition, Text Recognition",
+      "desc": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics.",
       "link": "https://www.synthavo.de/en/",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
       "skills": [
@@ -158,8 +157,8 @@
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
       "date": "Mar 2023 - Jul 2023",
       "role": "Machine Learning Research Assistant",
-      "desc": "Implementation of a framework that will link automatic planning tools with the SUMO traffic simulator. Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the above-mentioned framework. Experimentation and evaluation of the proposed algorithms in the project: GAČR, Traffic control in populated areas using automated planning, 23-05575S.",
-      "skills": ["Machine Learning", "Python"],
+      "desc": "Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the SUMO traffic simulator. Experimentation and evaluation of the proposed algorithms.",
+      "skills": ["Machine Learning", "Python", "Traffic Simulation", "Intelligent Traffic Planning"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
       "link": "https://www.ciirc.cvut.cz/"
     },
@@ -177,7 +176,7 @@
       "date": "Sep 2021 - Jul 2022",
       "role": "AI Research Programmer",
       "desc": "Combined classical planning and game theory to design algorithms for adversarial environments. Applied ML techniques to simulations for drone fleet route planning.",
-      "skills": ["Python", "AI Planning", "Artificial Intelligence", "Machine Learning"],
+      "skills": ["Python", "AI Planning", "Game Theory"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
       "link": "https://www.aic.fel.cvut.cz/"
     },
@@ -185,7 +184,7 @@
       "company": "SCILIF, SUNFIBRE",
       "date": "Jul 2021 - Oct 2021",
       "role": "Android App Developer",
-      "desc": "Designed and developed an Android app to manage Bluetooth Low Energy devices using Kotlin.",
+      "desc": "Designed and developed an Android app to manage multiple Bluetooth Low Energy devices at once using Kotlin.",
       "skills": ["Android", "Kotlin", "Bluetooth LE"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/sunfibre-logo.jpeg",
       "link": "https://www.scilif.com/"
