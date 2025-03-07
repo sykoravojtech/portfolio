@@ -9,7 +9,7 @@ import { database } from "./FirebaseConfig";
 // Pages
 import Home from "./pages/Home";
 import AllProjects from "./pages/AllProjects.jsx";
-import TermsandConditions from "./pages/TermsandConditions.jsx";
+// import TermsandConditions from "./pages/TermsandConditions.jsx";
 import './App.css'; // Move this to the bottom or leave it here if it doesn't affect styles
 
 const Body = styled.div`
@@ -72,7 +72,7 @@ const App = () => {
               <Route path="/AllProjects" element={
                 <AllProjects firebaseData={firebaseData} openModal={openModal} setOpenModal={setOpenModal} />
               } />
-              <Route path="/TermsandConditions" element={<TermsandConditions firebaseData={firebaseData}/>} />
+              {/* <Route path="/TermsandConditions" element={<TermsandConditions firebaseData={firebaseData}/>} /> */}
               <Route path="*" element={<Home firebaseData={firebaseData} openModal={openModal} setOpenModal={setOpenModal} />} />
             </Routes>
           </Body>

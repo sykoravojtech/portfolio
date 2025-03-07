@@ -1,13 +1,5 @@
 # Vojtěch Sýkora's Portfolio
 
-Just add commit and push and run `npm run deploy` 
-
-Remove background https://www.remove.bg/ 
-
-png to svg https://www.freeconvert.com/png-to-svg 
-
-skills icons https://www.cleanpng.com/free/programming-language.html 
-
 # resst
 
 Welcome to the dynamic portfolio website of **Vojtěch Sýkora**. This portfolio showcases my work and achievements, built with **ReactJS**, **Tailwind CSS**, and **Firebase** for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.
@@ -18,10 +10,9 @@ Explore the live portfolio [here](https://sykoravojtech.github.io/portfolio/).
 
 ## ⚠️ Important Notice
 
-If you plan to use this repository for your own projects, please ensure to remove or replace the following tracking codes from the `Public/index.html` file:
+If you plan to use this repository for your own projects, please ensure to remove or replace the following tracking codes from the `public/index.html` file:
 
 - **Google Analytics**
-- **Microsoft Clarity**
 
 These scripts are located in the header section. Retaining them may lead to tracking data being sent to my accounts, potentially causing privacy concerns for you and your users.
 
@@ -31,14 +22,9 @@ These scripts are located in the header section. Retaining them may lead to trac
 - **ReactJS**: Frontend framework for building the user interface.
 - **Tailwind CSS**: Utility-first CSS framework for styling and responsive design.
 - **Firebase**: Backend service for authentication, database, and hosting.
-- **EmailJS**: Service for integrating the contact form (currently disabled).
 
 ## 📱 Responsive Design
 The portfolio is fully responsive and optimized to provide a seamless experience on both desktop and mobile devices.
-
----
-
-Feel free to explore and reach out if you have any questions or feedback!
 
 ## Database
 
@@ -88,3 +74,13 @@ Feel free to explore and reach out if you have any questions or feedback!
 - **desc**: Brief description of the educational highlights or thesis topic.
 - **img**: URL of the institution's logo or relevant image.
 - **school**: Name of the educational institution.
+
+## Working with the repo
+
+Just add commit and push and run `npm run deploy` 
+
+Remove background https://www.remove.bg/ 
+
+png to svg https://www.freeconvert.com/png-to-svg 
+
+skills icons https://www.cleanpng.com/free/programming-language.html 

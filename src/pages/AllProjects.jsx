@@ -25,22 +25,22 @@ function AllProjects({ firebaseData, openModal, setOpenModal }) {
       <Helmet>
         <title>Projects | Vojtěch Sýkora's Portfolio</title>
         <meta name="description" content="The portfolio of Vojtěch Sýkora, showcasing Machine Learning, Deep Learning, and Programming projects." />
-        <meta name="keywords" content="Vojtěch Sýkora, AI/ML, Web Development, Portfolio, Projects, sibi, siddharth" />
+        <meta name="keywords" content="Vojtěch Sýkora, AI/ML, Deep Learning, COmputer Vision, Portfolio, Projects" />
         <meta name="author" content="Vojtěch Sýkora" />
-        <link rel="canonical" href="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
+        <link rel="canonical" href="https://sykoravojtech.github.io/portfolio/#/AllProjects" />
 
         {/* Open Graph Data */}
-        <meta property="og:title" content="MyMind - Vojtěch Sýkora's Portfolio | Projects" />
+        <meta property="og:title" content="Vojtěch Sýkora's Portfolio | Projects" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sibisiddharth8.github.io/portfolio-react/#/AllProjects" />
-        <meta property="og:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
+        <meta property="og:url" content="https://sykoravojtech.github.io/portfolio/#/AllProjects" />
+        <meta property="og:image" content="https://sykoravojtech.github.io/portfolio/card-banner.png" />
         <meta property="og:description" content="Explore projects developed by Vojtěch Sýkora, showcasing skills in AI/ML and Web Development." />
 
         {/* Twitter Card Data */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="MyMind - Projects" />
+        <meta name="twitter:title" content="Projects" />
         <meta name="twitter:description" content="Explore projects developed by Vojtěch Sýkora." />
-        <meta name="twitter:image" content="https://sibisiddharth8.github.io/portfolio-react/Og-card-banner-SibiSiddharthS.png" />
+        <meta name="twitter:image" content="https://sykoravojtech.github.io/portfolio/card-banner.png" />
       </Helmet>
 
       <Header 
