@@ -64,6 +64,10 @@
           "name": "Matplotlib"
         },
         {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/opencv.svg",
+          "name": "OpenCV"
+        },
+        {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/tensorflow.svg",
           "name": "TensorFlow"
         }
@@ -106,10 +110,6 @@
     },
     {
       "skills": [
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/chatGPT.webp",
-          "name": "ChatGPT"
-        },
         {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/canva.webp",
           "name": "Canva"
