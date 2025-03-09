@@ -104,6 +104,10 @@
         {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/vscode.svg",
           "name": "VS Code"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/gitlab.svg",
+          "name": "GitLab"
         }
       ],
       "title": "Development Tools"
