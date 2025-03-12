@@ -141,7 +141,7 @@ const Skill = styled.p`
 `;
 
 const ExperienceCard = ({ experience }) => {
-    console.log("Experience: ", experience)
+    // console.log("Experience: ", experience)
     
     return (
         <Card

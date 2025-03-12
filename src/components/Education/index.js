@@ -72,7 +72,7 @@ const TimelineSection = styled.div`
 `;
 
 const EducationTimeline = ({ education }) => {
-  console.log("Education data:", education); // Debugging print
+  // console.log("Education data:", education); // Debugging print
 
   if (!Array.isArray(education)) {
     console.error("Error: education is not an array!", education);
