@@ -380,10 +380,10 @@
       "title": "Urban Traffic Control Framework",
       "category": "Machine Learning",
       "date": "Mar 2023 - Jul 2023",
-      "description": "Description",
+      "description": "In this paper, we present a framework that allows embedding centralised traffic routing into the well-known SUMO simulator. The main purpose of the framework is to provide a tool to evaluate centralised routing techniques in realistic settings, or on real historical datasets. In a nutshell, the framework, besides SUMO, contains three main components: one for identifying ``problematic'' regions facing heavy traffic, one for identifying promising routes for the main journeys within the ``problematic'' regions, and the last component for generating routes for vehicles navigating the regions. The framework is extensively evaluated on publicly available datasets encoding traffic data in the Dublin and Luxembourg areas.\n• Paper submitted to journal Expert Systems with Applications (ESWA) owned by Elsevier\n• Title: A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques",
       "github": "https://github.com/Matyxus/UTC_Framework",
       "paper": "",
-      "image": "https://raw.githubusercontent.com/Matyxus/UTC_Framework/main/Images/FrameworkUTC.png",
+      "image": "https://raw.githubusercontent.com/Matyxus/sykoravojtech/portfolio/main/src/images/projects/utc-framework.png",
       "webapp": "",
       "tags": [
         "Traffic Simulation",
