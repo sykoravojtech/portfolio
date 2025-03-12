@@ -18,7 +18,7 @@
 
   "education": [
     {
-      "date": "2023-2025",
+      "date": "2023-2025 | Tübingen, Germany",
       "degree": "Master's in Machine Learning",
       "desc": "• Full scholarship from the DAAD German Academic Exchange Service for whole study program of 2 years.\n• Focused on Deep Learning, Computer Vision, and Reinforcement Learning.\n• Thesis: Multi-modal Deep Learning for Automated Schematic Analysis",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
@@ -26,7 +26,7 @@
       "link": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/"
     },
     {
-      "date": "2020-2023",
+      "date": "2020-2023 | Prague, Czechia",
       "degree": "Bachelor's in Open Informatics",
       "desc": "• Computer Science studies with a focus on Artificial Intelligence. \n• Thesis focused on Proximal Policy Optimization for Car Racing with unpredictable Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
@@ -34,7 +34,7 @@
       "link": "https://fel.cvut.cz/en/study-programs/oi-open-informatics"
     },
     {
-      "date": "2021-2023",
+      "date": "2021-2023 | Prague, Czechia",
       "degree": "Prague AI Minor",
       "desc": "An interdisciplinary AI curriculum bringing together students, teachers, and researchers from prestigious Prague universities.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
@@ -42,9 +42,9 @@
       "link": "https://prg.ai/en/minor/"
     },
     {
-      "date": "2018 - 2020",
+      "date": "2018 - 2020 | Prague, Czechia",
       "degree": "International Baccalaureate - Diploma Programme",
-      "desc": "Higher Level - Mathematics, Physics, Economics\nStandard Level - English, Czech, and German languages\nExtended Essay - Mathematics",
+      "desc": "Higher Level - Mathematics, Physics, Economics\nStandard Level - English, Czech, and German languages\nExtended Essay - Mathematics (Quaternions)",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/porg.jpeg",
       "school": "PORG",
       "link": "https://www.porg.cz/en/"
@@ -162,7 +162,7 @@
   "experiences": [
     {
       "company": "Synthavo",
-      "date": "Dec 2024 - Present",
+      "date": "Dec 2024 - Present | Stuttgart, Germany",
       "role": "Machine Learning Engineer",
       "desc": "Developing a Multi-modal pipeline for extracting and analyzing electric schematics.",
       "link": "https://www.synthavo.de/en/",
@@ -179,7 +179,7 @@
     },
     {
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
-      "date": "Mar 2023 - Jul 2023",
+      "date": "Mar 2023 - Jul 2023 | Prague, Czechia",
       "role": "Machine Learning Research Assistant",
       "desc": "Implementation of algorithms for intelligent traffic planning in populated areas and their integration into the SUMO traffic simulator. Experimentation and evaluation of the proposed algorithms.",
       "skills": ["Machine Learning", "Python", "Traffic Simulation", "Intelligent Traffic Planning"],
@@ -188,7 +188,7 @@
     },
     {
       "company": "Charles University",
-      "date": "Jul 2020 - Dec 2022",
+      "date": "Jul 2020 - Dec 2022 | Prague, Czechia",
       "role": "Data Scientist",
       "desc": "Worked with large databases (600k rows), extracted data using algorithms (MySQL, Python). Animated a choropleth map using GeoJSON, NumPy, Pandas, Plotly.express.",
       "skills": ["Data Science", "Data Visualization", "Python", "MySQL", "NumPy", "Pandas", "Plotly"],
@@ -197,7 +197,7 @@
     },
     {
       "company": "US Air Force Research Lab & CTU FEE AI Center",
-      "date": "Sep 2021 - Jul 2022",
+      "date": "Sep 2021 - Jul 2022 | Prague, Czechia",
       "role": "AI Research Programmer",
       "desc": "Combined classical planning and game theory to design algorithms for adversarial environments. Applied ML techniques to simulations for drone fleet route planning.",
       "skills": ["Python", "AI Planning", "Game Theory"],
@@ -206,7 +206,7 @@
     },
     {
       "company": "SCILIF, SUNFIBRE",
-      "date": "Jul 2021 - Oct 2021",
+      "date": "Jul 2021 - Oct 2021 | Prague, Czechia",
       "role": "Android App Developer",
       "desc": "Designed and developed an Android app to manage multiple Bluetooth Low Energy devices at once using Kotlin.",
       "skills": ["Android", "Kotlin", "Bluetooth LE"],
@@ -215,7 +215,7 @@
     },
     {
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
-      "date": "Sep 2017 - Aug 2019",
+      "date": "Sep 2017 - Aug 2019 | Prague, Czechia",
       "role": "Robotics Intern",
       "desc": "Automated 3D printing tasks for ABB YUMI robot at CIIRC. Developed a scannable coding system to sort printed parts.",
       "skills": ["Automation", "Robotics", "3D Printing"],
@@ -224,7 +224,7 @@
     },
     {
       "company": "LaunchX Entrepreneurship Program",
-      "date": "Sep 2016 - Jun 2019",
+      "date": "Sep 2016 - Jun 2019 | Czechia, Belgium, USA",
       "role": "Winner of a MIT Startup Competition",
       "desc": "Developed a startup aiding visually impaired people, won Brussels Demo Day, and invited to MIT for further development.",
       "skills": ["Project Start-up", "Entrepreneurship"],
@@ -349,7 +349,9 @@
         "Cardiovascular Disease",
         "Matplotlib",
         "Pandas",
-        "NumPy"
+        "NumPy",
+        "Python",
+        "Ischemic Disease"
       ],
       "rank": 60,
       "member": [

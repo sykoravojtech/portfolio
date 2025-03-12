@@ -81,7 +81,7 @@ const Tags = styled.div`
     height: 52px;
     align-items: center;
     -webkit-line-clamp: 2;
-    text-overflow: ellipsis;
+    text-overflow: hidden;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 4px;
