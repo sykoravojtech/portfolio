@@ -241,15 +241,15 @@
   "projects": [
     {
       "id": 0,
-      "title": "VideoMamba & SVT: Video Understanding",
+      "title": "Video Transformers for Classification and Captioning",
       "category": "Deep Learning",
       "date": "Mar 2024 - Jul 2024",
-      "description": "This project explores transformer-based models, specifically Self-supervised Video Transformer (SVT) and Video Mamba (VM), for video classification and captioning tasks. Using the complex Charades dataset, the project evaluates these models' capability to generalize and handle intricate human interactions without extensive labeled data. Key achievements include adapting transformer architectures, developing a specialized data pipeline, and comparing SVT and VM performances, highlighting their potential for efficient video understanding.",
+      "description": "This project explores transformer-based models, specifically Self-supervised Video Transformer (SVT) and Video Mamba (VM), for video classification and captioning tasks. Using the complex Charades video dataset, the project evaluates these models' capability to generalize and handle intricate human interactions without extensive labeled data. Key achievements include adapting transformer architectures, developing a specialized data pipeline, and comparing SVT and VM performances, highlighting their potential for efficient video understanding.",
       "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
       "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/self-supervised-video-transformer.jpeg",
-      "paper": "https://raw.githubusercontent.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/main/doc/ML_Practical_LENSV7.pdf",
+      "paper": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/blob/main/doc/ML_Practical_LENSV7.pdf",
       "webapp": "",
-      "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning"],
+      "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning", "Charades Dataset", "Weights & Biases", "PyTorch", "PyTorch Lightning", "OpenCV", "Scikit-learn"],
       "rank": 10,
       "member": [
         {
@@ -349,9 +349,7 @@
         "Cardiovascular Disease",
         "Matplotlib",
         "Pandas",
-        "NumPy",
-        "Python",
-        "Ischemic Disease"
+        "NumPy"
       ],
       "rank": 60,
       "member": [
@@ -378,7 +376,50 @@
     },
 
     {
-      "id": 4,
+      "id": 3,
+      "title": "Urban Traffic Control Framework",
+      "category": "Machine Learning",
+      "date": "Mar 2023 - Jul 2023",
+      "description": "",
+      "github": "https://github.com/Matyxus/UTC_Framework",
+      "paper": "",
+      "image": "https://raw.githubusercontent.com/Matyxus/UTC_Framework/main/Images/FrameworkUTC.png",
+      "webapp": "",
+      "tags": [
+        "Traffic Simulation",
+        "SUMO",
+        "Gravitational Clustering",
+        "PDDL",
+        "Vehicle Routing",
+        "Automated Planning",
+        "Python"
+      ],
+      "rank": 50,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
+        },
+        {
+          "name": "Matyáš Švadlenka,",
+          "github": "https://github.com/Matyxus",
+          "linkedin": "",
+          "img": ""
+        },
+        {
+          "name": "Lukáš Chrpa",
+          "github": "https://github.com/lchrpa",
+          "linkedin": "https://www.linkedin.com/in/lukas-chrpa-585284b/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/lukas-chrpa.jpeg"
+        }
+      ],
+      "ontop": 1
+    },
+
+    {
+      "id": 5,
       "title": "GeoJson Map Animation",
       "category": "Programming",
       "date": "2022",
@@ -400,7 +441,7 @@
     },
 
     {
-      "id": 5,
+      "id": 6,
       "title": "BioVis Food Data Visualization",
       "category": "Programming",
       "date": "Oct 2023 - Feb 2024",
