@@ -136,6 +136,7 @@ const Description = styled.p`
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    white-space: pre-line; /* add \n to desc to add newline  */
 `;
 
 const CardDataHolder = styled.div`
