@@ -72,6 +72,7 @@ The portfolio is fully responsive and optimized to provide a seamless experience
 - **degree**: Name of the degree or certification obtained (e.g., "Master's in Machine Learning").
 - **grade**: Grade or GPA achieved (if applicable; leave empty otherwise).
 - **desc**: Brief description of the educational highlights or thesis topic.
+- **link**: URL to the company’s website or relevant project page.
 - **img**: URL of the institution's logo or relevant image.
 - **school**: Name of the educational institution.
 

@@ -127,10 +127,12 @@ const EducationCard = ({ education }) => {
     return (
         <Card aria-labelledby={`education-card-${education.id}`} role="article" tabIndex="0">
             <Top>
-                <Image 
-                    src={education.img} 
-                    alt={`${education.school} - Vojtěch Sýkora`} 
-                />
+                <a href={education.link} target="_blank" rel="noopener noreferrer">
+                    <Image 
+                        src={education.img} 
+                        alt={`${education.school} - Vojtěch Sýkora`} 
+                    />
+                </a>
                 <Body>
                     <Name>{education.school}</Name>
                     <Degree>{education.degree}</Degree>

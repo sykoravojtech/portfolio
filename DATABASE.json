@@ -20,23 +20,26 @@
     {
       "date": "2023-2025",
       "degree": "Master's in Machine Learning",
-      "desc": "This excellent opportunity was also possible thanks to a full scholarship from the DAAD German Academic Exchange Service.",
+      "desc": "Full scholarship from the DAAD German Academic Exchange Service for whole study program of 2 years. Focused on Deep Learning, Computer Vision, and Reinforcement Learning. Thesis on Self-supervised Video Transformer for Video Understanding.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
-      "school": "University of Tübingen"
+      "school": "University of Tübingen",
+      "link": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/"
     },
     {
       "date": "2020-2023",
       "degree": "Bachelor's in Open Informatics",
       "desc": "Computer Science studies with a focus on Artificial Intelligence. Thesis focused on Proximal Policy Optimization for Car Racing with unpredictable Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
-      "school": "Czech Technical University in Prague"
+      "school": "Czech Technical University in Prague",
+      "link": "https://fel.cvut.cz/en/study-programs/oi-open-informatics"
     },
     {
       "date": "2021-2023",
       "degree": "Prague AI Minor",
       "desc": "An interdisciplinary AI curriculum bringing together students, teachers, and researchers from prestigious Prague universities.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
-      "school": "prg.ai & Charles University & CTU in Prague"
+      "school": "prg.ai & Charles University & CTU in Prague",
+      "link": "https://prg.ai/en/minor/"
     }
   ],
 
