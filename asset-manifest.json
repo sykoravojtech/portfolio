@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.754dfedd.js",
-    "static/js/907.8aae4ab8.chunk.js": "/portfolio/static/js/907.8aae4ab8.chunk.js",
+    "main.js": "/portfolio/static/js/main.64383568.js",
+    "static/js/907.ea5c7945.chunk.js": "/portfolio/static/js/907.ea5c7945.chunk.js",
     "static/media/vojtech-sykora.png": "/portfolio/static/media/vojtech-sykora.89c9a49ad944b2312a5e.png",
     "static/media/ViewAllCardImg.png": "/portfolio/static/media/ViewAllCardImg.6f8fec7a26e5fc5c05a1.png",
     "static/media/MyLogo.png": "/portfolio/static/media/MyLogo.c736c5950c9c153c47f8.png",
     "index.html": "/portfolio/index.html",
     "static/media/medium.svg": "/portfolio/static/media/medium.dbc52c3e045a2a54c51cbcbc19571064.svg",
     "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.754dfedd.js.map": "/portfolio/static/js/main.754dfedd.js.map",
-    "907.8aae4ab8.chunk.js.map": "/portfolio/static/js/907.8aae4ab8.chunk.js.map"
+    "main.64383568.js.map": "/portfolio/static/js/main.64383568.js.map",
+    "907.ea5c7945.chunk.js.map": "/portfolio/static/js/907.ea5c7945.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.754dfedd.js"
+    "static/js/main.64383568.js"
   ]
 }
