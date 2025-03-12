@@ -78,14 +78,13 @@ const Loader = styled.div`
 const Tags = styled.div`
     width: 100%;
     display: flex;
-    height: 52px;
-    align-items: center;
-    -webkit-line-clamp: 2;
-    text-overflow: hidden;
     flex-wrap: wrap;
     gap: 8px;
     margin-top: 4px;
+    max-height: calc(2 * 1.5em + 8px); /* Adjust the multiplier (1.5em) and gap as needed */
+    overflow: hidden;
 `;
+
 
 const Tag = styled.span`
     font-size: 12px;
