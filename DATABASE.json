@@ -83,6 +83,14 @@
         {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/cpp.svg",
           "name": "C++"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/latex.png",
+          "name": "LaTeX"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/markdown.png",
+          "name": "Markdown"
         }
       ],
       "title": "Programming Languages"
