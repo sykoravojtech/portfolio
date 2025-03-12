@@ -296,7 +296,7 @@
       "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
       "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/rcnn.png",
       "webapp": "",
-      "tags": ["Instance Segmentation", "Detectron2", "Mask R-CNN"],
+      "tags": ["Instance Segmentation", "Detectron2", "Mask R-CNN", "PyTorch"],
       "rank": 40,
       "member": [
         {
@@ -376,7 +376,7 @@
     },
 
     {
-      "id": 3,
+      "id": 4,
       "title": "Urban Traffic Control Framework",
       "category": "Machine Learning",
       "date": "Mar 2023 - Jul 2023",
@@ -388,8 +388,8 @@
       "tags": [
         "Traffic Simulation",
         "SUMO",
-        "Gravitational Clustering",
         "PDDL",
+        "Gravitational Clustering",
         "Vehicle Routing",
         "Automated Planning",
         "Python"
@@ -481,6 +481,28 @@
           "github": "https://github.com/moktayoglu",
           "linkedin": "https://www.linkedin.com/in/melis-oktayoglu/",
           "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/melis-oktayoglu.jpeg"
+        }
+      ],
+      "ontop": 0
+    },
+
+    {
+      "id": 7,
+      "title": "Portfolio Website",
+      "category": "Programming",
+      "date": "2025-Present",
+      "description": "My personal dynamic portfolio website. Built with ReactJS, Tailwind CSS, and Firebase for backend integration. It is optimized for a seamless experience across both desktop and mobile devices.",
+      "github": "https://github.com/sykoravojtech/portfolio",
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/website_intro.png",
+      "webapp": "https://sykoravojtech.github.io/portfolio/",
+      "tags": ["ReadJS", "Tailwind CSS", "Firebase", "Google Analytics", "Portfolio"],
+      "rank": 80,
+      "member": [
+        {
+          "name": "Vojtěch Sýkora",
+          "github": "https://github.com/sykoravojtech",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
         }
       ],
       "ontop": 0
