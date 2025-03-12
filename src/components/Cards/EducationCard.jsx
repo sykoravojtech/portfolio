@@ -28,9 +28,10 @@ const Span = styled.span`
     overflow: hidden;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 4; /* number of lines to show */
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+    white-space: pre-line; /* add \n to desc to add newline  */
 `;
 
 const Card = styled.article`
