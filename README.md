@@ -76,6 +76,8 @@ The portfolio is fully responsive and optimized to provide a seamless experience
 - **img**: URL of the institution's logo or relevant image.
 - **school**: Name of the educational institution.
 
+• 
+
 ## Working with the repo
 
 Just add commit and push and run `npm run deploy` 
@@ -85,3 +87,6 @@ Remove background https://www.remove.bg/
 png to svg https://www.freeconvert.com/png-to-svg 
 
 skills icons https://www.cleanpng.com/free/programming-language.html 
+
+## Acknowledgment
+Thank you Sibi Siddharth S for inspiration for this portfolio
