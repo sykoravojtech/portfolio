@@ -5,8 +5,8 @@
     "insta": "https://medium.com/@sykoravojtech",
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
     "name": "Vojtěch Sýkora",
-    "resume": "https://github.com/sykoravojtech/portfolio/blob/main/CV_Sykora.pdf",
-    "email": "sykoravojtech01@gmail.com",
+    "resume": "https://github.com/sykoravojtech/portfolio/blob/main/CV_Vojtech_Sykora.pdf",
+    "email": "sykoravojtech.de@gmail.com",
     "roles": [
       "Machine Learning Engineer",
       "Computer Vision Engineer"
@@ -18,7 +18,7 @@
 
   "education": [
     {
-      "date": "2023-2025 | Tübingen, Germany",
+      "date": "Oct 2023 - Sep 2025 | Tübingen, Germany",
       "degree": "Master's in Machine Learning",
       "desc": "• Full scholarship from the DAAD German Academic Exchange Service for whole study program of 2 years.\n• Focused on Deep Learning, Computer Vision, and Reinforcement Learning.\n• Thesis: Multi-modal Deep Learning for Automated Schematic Analysis",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
@@ -26,7 +26,7 @@
       "link": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/"
     },
     {
-      "date": "2020-2023 | Prague, Czechia",
+      "date": "Sep 2020 - Jun 2023 | Prague, Czechia",
       "degree": "Bachelor's in Open Informatics",
       "desc": "• Computer Science studies with a focus on Artificial Intelligence. \n• Thesis focused on Proximal Policy Optimization for Car Racing with unpredictable Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
