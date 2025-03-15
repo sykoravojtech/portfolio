@@ -163,7 +163,7 @@
     {
       "company": "Synthavo",
       "date": "Dec 2024 - Present | Stuttgart, Germany | Part-time",
-      "role": "Machine Learning Engineer (Working Student)",
+      "role": "Machine Learning Engineer",
       "desc": "• Developing a multi-modal pipeline for extracting and analyzing complex switchboard schematics.\n• Engineering end-to-end solution including object detection, instance segmentation, rotation recognition, text recognition, and edge detection.\n• Designing robust preprocessing and labeling strategies to handle diverse schematic layouts.\n• Extracting semantics from intricate electric diagrams to deliver actionable insights for enterprise customers (market cap up to €180B).",
       "link": "https://www.synthavo.de/en/",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
@@ -214,7 +214,7 @@
     {
       "company": "US Air Force Research Lab & CTU FEE AI Center",
       "date": "Sep 2021 - Jul 2022 | Prague, Czechia | Part-time",
-      "role": "Artificial Intelligence Engineer (Working Student)",
+      "role": "Artificial Intelligence Researcher",
       "desc": "• Contributed to the FRAS (Flexible and Resilient Autonomous Systems) research project, funded by the US Air Force Research Lab in cooperation with Carnegie Mellon University and CTU FEE AI Center, focusing on adversarial environments. \n• Developed a Python and PDDL-based environment generator to train single and multi-agent AI planning strategies.\n• Applied classical planning and game theory concepts to create robust algorithms for harsh weather and potential hostile attacks.",
       "skills": ["Classical Planning", "Game Theory", "PDDL", "Python"],
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
