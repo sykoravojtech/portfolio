@@ -5,7 +5,7 @@
     "insta": "https://medium.com/@sykoravojtech",
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
     "name": "Vojtěch Sýkora",
-    "resume": "https://github.com/sykoravojtech/portfolio/blob/main/CV_Vojtech_Sykora.pdf",
+    "resume": "https://drive.google.com/file/d/13m-fY1jEuESbeFNaZBD9e3_LJQWt9Kbs/view?usp=sharing",
     "email": "sykoravojtech.de@gmail.com",
     "roles": [
       "Machine Learning Engineer",
@@ -181,7 +181,7 @@
       "company": "Czech Institute of Informatics, Robotics and Cybernetics",
       "date": "Mar 2023 - Jul 2023 | Prague, Czechia | Part-time",
       "role": "Machine Learning Researcher",
-      "desc": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Developed and adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'\n• More under project: Urban Traffic Control Framework",
+      "desc": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'\n• More under project: Urban Traffic Control Framework",
       "skills": [
         "Machine Learning", 
         "Python", 
@@ -317,7 +317,7 @@
       "title": "Instance Segmentation Challenge",
       "category": "Deep Learning",
       "date": "Oct 2024",
-      "description": "• This project leverages Detectron2, a transformer-based detection model, for accurate 2D object segmentation using data with bounding boxes and masks.\n• Using a pre-trained Mask R-CNN architecture, it effectively identifies and segments diverse objects, demonstrating high accuracy even on challenging datasets.\n• The approach achieved a strong overall Average Precision (AP) of 46.1, highlighting its effectiveness for detailed image analysis tasks.",
+      "description": "• This project leverages Detectron2, a transformer-based detection model, for accurate 2D instance segmentation using data with bounding boxes and masks.\n• Using a pre-trained Mask R-CNN architecture, it effectively identifies and segments diverse objects, demonstrating high accuracy even on challenging datasets.\n• The approach achieved a strong overall Average Precision (AP) of 46.1, highlighting its effectiveness for detailed image analysis tasks.",
       "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
       "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/rcnn.png",
       "webapp": "",

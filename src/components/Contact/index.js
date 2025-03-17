@@ -51,7 +51,7 @@ const EmailText = styled.span`
 
 const Contact = () => {
   const theme = useTheme();
-  const email = "sykoravojtech01@gmail.com";
+  const email = "sykoravojtech.de@gmail.com";
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 

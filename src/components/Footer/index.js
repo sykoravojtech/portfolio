@@ -187,7 +187,7 @@ const Footer = ({ footerData, links=[] }) => {
           
           <Tooltip title="Send Email">
             <SocialMediaIcon
-              href={`mailto:${footerData?.email}` || 'mailto:sykoravojtech01@gmail.com'}
+              href={`mailto:${footerData?.email}` || 'mailto:sykoravojtech.de@gmail.com'}
               target="_blank"
               aria-label="Email"
             >
