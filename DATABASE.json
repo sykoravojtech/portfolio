@@ -1,61 +1,479 @@
 {
   "Bio": {
     "description": "Available from October 2025, I am seeking a full-time position in Deep Learning, preferably Computer Vision. With a strong background in these fields, I aim to develop practical solutions and contribute to innovative projects in a collaborative environment.",
+    "email": "sykoravojtech.de@gmail.com",
     "github": "https://github.com/sykoravojtech",
     "insta": "https://medium.com/@sykoravojtech",
     "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
     "name": "Vojtěch Sýkora",
-    "resume": "https://drive.google.com/file/d/13m-fY1jEuESbeFNaZBD9e3_LJQWt9Kbs/view?usp=sharing",
-    "email": "sykoravojtech.de@gmail.com",
+    "resume": "https://media.licdn.com/dms/document/media/v2/D4D2DAQEPksExDuyl2Q/profile-treasury-document-pdf-analyzed/B4DZX3IfaEH4Ag-/0/1743607955067?e=1744243200&v=beta&t=DTzEt6KQkRZBfGv0THcN90fFsfI4Jm_wSiCB3Eo7e7I",
     "roles": [
-      "Machine Learning Engineer",
-      "Computer Vision Engineer"
+      "Computer Vision Engineer",
+      "Machine Learning Engineer"
     ]
   },
-
-
-
-
   "education": [
     {
-      "date": "Oct 2023 - Sep 2025 | Tübingen, Germany",
+      "date": "10/2023 - 09/2025 | Tübingen, Germany",
       "degree": "Master's in Machine Learning",
       "desc": "• Full scholarship from the DAAD German Academic Exchange Service for whole study program of 2 years.\n• Focused on Deep Learning, Computer Vision, and Reinforcement Learning.\n• Thesis: Multi-modal Deep Learning for Automated Schematic Analysis",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/uni-tue-logo.jpeg",
-      "school": "University of Tübingen",
-      "link": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/"
+      "link": "https://uni-tuebingen.de/en/study/finding-a-course/degree-programs-available/detail/course/machine-learning-master/",
+      "school": "University of Tübingen"
     },
     {
-      "date": "Sep 2020 - Jun 2023 | Prague, Czechia",
+      "date": "09/2020 - 06/2023 | Prague, Czechia",
       "degree": "Bachelor's in Open Informatics",
       "desc": "• Computer Science studies with a focus on Artificial Intelligence. \n• Thesis focused on Proximal Policy Optimization for Car Racing with unpredictable Wind.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/ctu-logo-small.png",
-      "school": "Czech Technical University in Prague",
-      "link": "https://fel.cvut.cz/en/study-programs/oi-open-informatics"
+      "link": "https://fel.cvut.cz/en/study-programs/oi-open-informatics",
+      "school": "Czech Technical University in Prague"
     },
     {
-      "date": "2021-2023 | Prague, Czechia",
+      "date": "09/2021 - 06/2023 | Prague, Czechia",
       "degree": "Prague AI Minor",
       "desc": "An interdisciplinary AI curriculum bringing together students, teachers, and researchers from prestigious Prague universities.",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/prgai.webp",
-      "school": "prg.ai & Charles University & CTU in Prague",
-      "link": "https://prg.ai/en/minor/"
+      "link": "https://prg.ai/en/minor/",
+      "school": "prg.ai & Charles University & CTU in Prague"
     },
     {
-      "date": "2018 - 2020 | Prague, Czechia",
+      "date": "09/2018 - 06/2020 | Prague, Czechia",
       "degree": "International Baccalaureate - Diploma Programme",
       "desc": "• Higher Level - Mathematics, Physics, Economics\n• Standard Level - English, Czech, and German languages\n• Extended Essay - Mathematics (Quaternions)",
       "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/education/porg.jpeg",
-      "school": "PORG",
-      "link": "https://www.porg.cz/en/"
+      "link": "https://www.porg.cz/en/",
+      "school": "PORG"
     }
-
   ],
-
-
-
-
-
+  "experiences": [
+    {
+      "company": "FZI Research Center for Information Technology",
+      "date": "03/2025 - Present | Karlsruhe, Germany | Remote",
+      "desc": "• Independently create a comprehensive dataset of Raspberry Pi schematics for computer vision analysis.\n• Refine a multi-modal pipeline to extract semantics from schematics, benchmarking it against state-of-the-art Visual Language Models (VLMs).\n• Engineer end-to-end components including object detection, instance segmentation, rotation recognition, text recognition, and edge detection to improve information extraction and data quality.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/fzi.jpeg",
+      "link": "https://www.fzi.de/en/",
+      "role": "Master Thesis - Computer Vision",
+      "skills": [
+        "Visual Language Models (VLM)",
+        "Multi-Modal Deep Learning",
+        "Python (Programming Language)",
+        "PyTorch",
+        "Object Detection"
+      ]
+    },
+    {
+      "company": "synthavo",
+      "date": "12/2024 - Present | Stuttgart, Germany | Hybrid",
+      "desc": "• Lead the development of an agentic LLM prototype for advanced data processing.\n• Adapt and optimize an existing multi-modal pipeline to extract semantics and graph structure from switchboard schematics.\n• Identify and classify visual components in complex electrical diagrams to support downstream automation for enterprise clients (market cap up to €180B).\n• Implement targeted refinements to improve pipeline robustness and accuracy.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
+      "link": "https://www.synthavo.de/en/",
+      "role": "Computer Vision Working Student",
+      "skills": [
+        "Machine Learning",
+        "Python (Programming Language)",
+        "Deep Learning",
+        "Data Preparation",
+        "Computer Vision"
+      ]
+    },
+  
+    {
+      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
+      "date": "03/2023 - 07/2023 | Prague, Czechia | Part-time",
+      "desc": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'\n• More under project: Urban Traffic Control Framework",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
+      "link": "https://www.ciirc.cvut.cz/",
+      "role": "Machine Learning Researcher",
+      "skills": [
+        "Machine Learning",
+        "Python",
+        "Traffic Simulation (SUMO)",
+        "Intelligent Traffic Planning",
+        "Gravitational Clustering"
+      ]
+    },
+    {
+      "company": "Charles University",
+      "date": "07/2020 - 12/2022 | Prague, Czechia | Contract",
+      "desc": "• Project 1 (2020): Analyzed 600K+ records in MySQL using Python-based algorithms to compare and extract key insights.\n• Project 2 (2022): Developed an animated choropleth map for visualizing demographic shifts (Python, GeoJSON, NumPy, Pandas, Plotly).",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/charles-uni.png",
+      "link": "https://cuni.cz/UKEN-1.html",
+      "role": "Data Scientist",
+      "skills": [
+        "Data Science",
+        "Data Visualization",
+        "Python",
+        "MySQL",
+        "NumPy",
+        "Pandas",
+        "Plotly",
+        "GeoJSON",
+        "Demographic Analysis"
+      ]
+    },
+    {
+      "company": "US Air Force Research Lab & CTU FEE AI Center",
+      "date": "09/2021 - 07/2022 | Prague, Czechia | Part-time",
+      "desc": "• Contributed to the FRAS (Flexible and Resilient Autonomous Systems) research project, funded by the US Air Force Research Lab in cooperation with Carnegie Mellon University and CTU FEE AI Center, focusing on adversarial environments. \n• Developed a Python and PDDL-based environment generator to train single and multi-agent AI planning strategies.\n• Applied classical planning and game theory concepts to create robust algorithms for harsh weather and potential hostile attacks.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
+      "link": "https://www.aic.fel.cvut.cz/",
+      "role": "Artificial Intelligence Researcher",
+      "skills": [
+        "Classical Planning",
+        "Game Theory",
+        "PDDL",
+        "Python"
+      ]
+    },
+    {
+      "company": "SCILIF, SUNFIBRE",
+      "date": "07/2021 - 10/2021 | Prague, Czechia | Contract",
+      "desc": "• Designed and developed an Android app to manage multiple Bluetooth Low Energy devices at once using Kotlin.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/sunfibre-logo.jpeg",
+      "link": "https://www.scilif.com/",
+      "role": "Android App Developer",
+      "skills": [
+        "Android",
+        "Kotlin",
+        "Bluetooth Low Energy (BLE)"
+      ]
+    },
+    {
+      "company": "Czech Basketball Federation",
+      "date": "09/2016 - 06/2020 | Prague, Czechia | Part-time",
+      "desc": "• Officiated over 100 games in various age categories, including U14, U16, U18, and adults.\n• Developed leadership, teamwork, and decision-making skills in high-pressure situations.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cbf-full.jpg",
+      "link": "https://cbf.cz.basketball/o-cbf/p81",
+      "role": "Basketball Referee",
+      "skills": [
+        "Leadership",
+        "Teamwork",
+        "Decision Making",
+        "Work under pressure"
+      ]
+    },
+    {
+      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
+      "date": "09/2017 - 08/2019 | Prague, Czechia",
+      "desc": "• Automated 3D printing tasks for ABB YUMI robot at CIIRC.\n• Developed a scannable coding system to sort printed parts.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
+      "link": "https://www.ciirc.cvut.cz/",
+      "role": "Robotics Intern",
+      "skills": [
+        "Automation",
+        "Robotics",
+        "3D Printing"
+      ]
+    },
+    {
+      "company": "LaunchX Entrepreneurship Program",
+      "date": "09/2016 - 06/2019 | Czechia, Belgium, USA",
+      "desc": "• Developed a startup connecting visually impaired people with visually healthy people.\n• Won Brussels Demo Day, and got invited to MIT (Boston, USA) for further development.",
+      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/mit-launchx.jpeg",
+      "link": "https://www.launchx.com/",
+      "role": "Winner of a MIT Startup Competition",
+      "skills": [
+        "Project Start-up",
+        "Entrepreneurship"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "category": "Deep Learning",
+      "date": "03/2024 - 07/2024",
+      "description": "• Developed a transformer-based pipeline leveraging SVT and Video Mamba models on the complex Charades dataset.\n• For Classification, engineered a custom data processing pipeline with sliding window inference, achieving up to 29.82 mAP while reducing dependence on extensive labeled data.\n• For Captioning, integrated a GPT-2 based decoder to generate detailed descriptions, achieving BLEU-1 scores above 0.22, demonstrating effective utilization of spatiotemporal features for coherent caption generation.",
+      "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
+      "id": 0,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/self-supervised-video-transformer.jpeg",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        },
+        {
+          "github": "https://github.com/gallegi",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg",
+          "linkedin": "https://www.linkedin.com/in/thenam/",
+          "name": "Nam Nguyen The"
+        },
+        {
+          "github": "https://github.com/Swadesh13",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/swadesh-jana.jpeg",
+          "linkedin": "https://www.linkedin.com/in/swadeshjana/",
+          "name": "Swadesh Jana"
+        },
+        {
+          "github": "https://github.com/ernaz100",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/erik-nazarenus.jpeg",
+          "linkedin": "https://www.linkedin.com/in/eric-nazarenus-34898718a/",
+          "name": "Eric Nazarenus"
+        },
+        {
+          "github": "https://github.com/l-trochelmann",
+          "img": "",
+          "linkedin": "",
+          "name": "Leon Trochelmann"
+        }
+      ],
+      "ontop": 1,
+      "paper": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/blob/main/doc/ML_Practical_LENSV7.pdf",
+      "rank": 10,
+      "tags": [
+        "Transformer",
+        "Video Classification",
+        "Captioning",
+        "Self-supervised Learning",
+        "Charades Dataset",
+        "Weights & Biases",
+        "PyTorch",
+        "PyTorch Lightning",
+        "OpenCV",
+        "Scikit-learn"
+      ],
+      "title": "Video Transformers for Classification and Captioning",
+      "webapp": ""
+    },
+    {
+      "category": "Deep Learning",
+      "date": "10/2024",
+      "description": "• This project leverages Detectron2, a transformer-based detection model, for accurate 2D instance segmentation using data with bounding boxes and masks.\n• Using a pre-trained Mask R-CNN architecture, it effectively identifies and segments diverse objects, demonstrating high accuracy even on challenging datasets.\n• The approach achieved a strong overall Average Precision (AP) of 46.1, highlighting its effectiveness for detailed image analysis tasks.",
+      "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
+      "id": 1,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/rcnn.png",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        }
+      ],
+      "ontop": 1,
+      "rank": 40,
+      "tags": [
+        "Instance Segmentation",
+        "Detectron2",
+        "Mask R-CNN",
+        "PyTorch"
+      ],
+      "title": "Instance Segmentation Challenge",
+      "webapp": ""
+    },
+    {
+      "category": "Deep Learning",
+      "date": "07/2022 - 06/2023",
+      "description": "• Implemented Proximal Policy Optimization (PPO) algorithm for training reinforcement learning agents in the OpenAI CarRacing environment with custom Wind.\n• Developed robust training strategies, optimized hyperparameters, and thoroughly evaluated agent performance, culminating in a comprehensive thesis and analysis of PPO effectiveness in autonomous driving tasks.\n• Consistently reached score of 900+ beating the environment.",
+      "github": "https://github.com/sykoravojtech/PPOthesis/tree/main",
+      "id": 2,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/PPOCarRacing/main/car-driving.gif",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        }
+      ],
+      "ontop": 1,
+      "paper": "https://raw.githubusercontent.com/sykoravojtech/PPOthesis/main/PPO_Thesis_Sykora.pdf",
+      "rank": 50,
+      "tags": [
+        "Reinforcement Learning",
+        "PPO",
+        "OpenAI Gym",
+        "Autonomous Driving"
+      ],
+      "title": "Proximal Policy Optimization for Car Racing",
+      "webapp": ""
+    },
+    {
+      "category": "Machine Learning",
+      "date": "10/2023 - 04/2024",
+      "description": "• Conducted a comprehensive analysis of ischemic heart disease (IHD) in Germany, identifying its prominence among cardiovascular diseases and its significant contribution to the national death rate.\n• Applied statistical analysis and Random Forest regression modeling to assess the influence of healthcare spending, alcohol consumption, fat consumption, and demographic factors like median age.\n• The project revealed that alcohol consumption, median age, and healthcare expenditures significantly affect the death rate of IHD, while the influence of fat consumption remained inconclusive. The analysis provided insights into Germany's lifestyle factors and healthcare efficiency, suggesting avenues for public health improvements.",
+      "github": "https://github.com/sykoravojtech/IHD_germany_2024",
+      "id": 3,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/ihd-germany.png",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        },
+        {
+          "github": "https://github.com/QuackyPenguin",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/denis-kovacevic.jpeg",
+          "linkedin": "https://www.linkedin.com/in/denis-kovacevic-445182204/",
+          "name": "Denis Kovačević"
+        },
+        {
+          "github": "https://github.com/gallegi",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg",
+          "linkedin": "https://www.linkedin.com/in/thenam/",
+          "name": "Nam Nguyen The"
+        }
+      ],
+      "ontop": 1,
+      "paper": "https://raw.githubusercontent.com/sykoravojtech/IHD_germany_2024/main/doc/IHD_germany_2024/DataLit_report_2024.pdf",
+      "rank": 60,
+      "tags": [
+        "Machine Learning",
+        "Random Forest",
+        "SHAP Analysis",
+        "Cardiovascular Disease",
+        "Matplotlib",
+        "Pandas",
+        "NumPy"
+      ],
+      "title": "Ischemic Heart Disease Analysis in Germany",
+      "webapp": ""
+    },
+    {
+      "category": "Machine Learning",
+      "date": "03/2023 - 07/2023",
+      "description": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Developed and adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'",
+      "github": "https://github.com/Matyxus/UTC_Framework",
+      "id": 4,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/utc-framework.png",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        },
+        {
+          "github": "https://github.com/Matyxus",
+          "img": "",
+          "linkedin": "",
+          "name": "Matyáš Švadlenka,"
+        },
+        {
+          "github": "https://github.com/lchrpa",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/lukas-chrpa.jpeg",
+          "linkedin": "https://www.linkedin.com/in/lukas-chrpa-585284b/",
+          "name": "Lukáš Chrpa"
+        }
+      ],
+      "ontop": 1,
+      "paper": "",
+      "rank": 50,
+      "tags": [
+        "Traffic Simulation",
+        "SUMO",
+        "PDDL",
+        "Gravitational Clustering",
+        "Vehicle Routing",
+        "Automated Planning",
+        "Python"
+      ],
+      "title": "Urban Traffic Control Framework",
+      "webapp": ""
+    },
+    {
+      "category": "Programming",
+      "date": "2022",
+      "description": "• This project visualizes population movement and demographic trends using interactive maps created with GeoPandas, Numpy, and Plotly.\n• It provides dynamic, data-driven insights into population patterns across regions over time, leveraging geospatial analysis to clearly represent complex demographic shifts.",
+      "github": "https://github.com/sykoravojtech/geojson-map-animation",
+      "id": 5,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/geojson-map-animation/main/orp.gif",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        }
+      ],
+      "ontop": 0,
+      "rank": 100,
+      "tags": [
+        "Animation",
+        "Python",
+        "GeoJSON",
+        "GeoPandas",
+        "Plotly"
+      ],
+      "title": "GeoJson Map Animation",
+      "webapp": ""
+    },
+    {
+      "category": "Programming",
+      "date": "10/2023 - 02/2024",
+      "description": "• This project analyzed a large dataset of 180,000+ recipes from Food.com to visualize ingredient trends, nutritional content, and cuisine popularity across global regions.\n• Using using advanced JavaScript libraries (D3.js), the analysis explored ingredient similarities, dietary patterns, and popularity dynamics, offering interactive filters for detailed cuisine comparisons.",
+      "github": "https://github.com/sykoravojtech/BioVis_food/tree/main",
+      "id": 6,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/biovis-data.png",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        },
+        {
+          "github": "https://github.com/danieleskandar",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/daniel-eskandar.png",
+          "linkedin": "https://www.linkedin.com/in/daniel-eskandar-6422a21b1/",
+          "name": "Daniel Eskandar"
+        },
+        {
+          "github": "https://github.com/carla-lm",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/carla-lopez-martinez.jpeg",
+          "linkedin": "https://www.linkedin.com/in/carla-lopez-martinez/",
+          "name": "Carla López Martínez"
+        },
+        {
+          "github": "https://github.com/moktayoglu",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/melis-oktayoglu.jpeg",
+          "linkedin": "https://www.linkedin.com/in/melis-oktayoglu/",
+          "name": "Melis Oktayoğlu"
+        }
+      ],
+      "ontop": 0,
+      "paper": "",
+      "rank": 70,
+      "tags": [
+        "JavaScript",
+        "Data Visualization",
+        "D3.js",
+        "Interactive Visualization"
+      ],
+      "title": "BioVis Food Data Visualization",
+      "webapp": ""
+    },
+    {
+      "category": "Programming",
+      "date": "02/2025-Present",
+      "description": "• My personal dynamic portfolio website. Built with ReactJS, Tailwind CSS, and Firebase for backend integration.\n• It is optimized for a seamless experience across both desktop and mobile devices.",
+      "github": "https://github.com/sykoravojtech/portfolio",
+      "id": 7,
+      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/website_intro.png",
+      "member": [
+        {
+          "github": "https://github.com/sykoravojtech",
+          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png",
+          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
+          "name": "Vojtěch Sýkora"
+        }
+      ],
+      "ontop": 0,
+      "rank": 80,
+      "tags": [
+        "ReadJS",
+        "Tailwind CSS",
+        "Firebase",
+        "Google Analytics",
+        "Portfolio"
+      ],
+      "title": "Portfolio Website",
+      "webapp": "https://sykoravojtech.github.io/portfolio/"
+    }
+  ],
   "skills": [
     {
       "skills": [
@@ -114,6 +532,10 @@
           "name": "Git"
         },
         {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/gitlab.svg",
+          "name": "GitLab"
+        },
+        {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/github.png",
           "name": "GitHub"
         },
@@ -126,8 +548,8 @@
           "name": "VS Code"
         },
         {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/gitlab.svg",
-          "name": "GitLab"
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/canva.webp",
+          "name": "Canva"
         }
       ],
       "title": "Development Tools"
@@ -135,406 +557,19 @@
     {
       "skills": [
         {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/canva.webp",
-          "name": "Canva"
-        },
-        {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/uk-flag.png",
-          "name": "English (C1)"
-        },
-        {
-          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/germany-flag.png",
-          "name": "German (B1)"
+          "name": "English (Fluent)"
         },
         {
           "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/czechia-flag.png",
           "name": "Czech (Native)"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/skills/germany-flag.png",
+          "name": "German (Intermediate)"
         }
       ],
-      "title": "Other Skills"
+      "title": "Languages"
     }
-  ],
-
-
-
-
-
-  "experiences": [
-    {
-      "company": "Synthavo",
-      "date": "Dec 2024 - Present | Stuttgart, Germany | Part-time",
-      "role": "Machine Learning Engineer",
-      "desc": "• Developing a multi-modal pipeline for extracting and analyzing complex switchboard schematics.\n• Engineering end-to-end solution including object detection, instance segmentation, rotation recognition, text recognition, and edge detection.\n• Designing robust preprocessing and labeling strategies to handle diverse schematic layouts.\n• Extracting semantics from intricate electric diagrams to deliver actionable insights for enterprise customers (market cap up to €180B).",
-      "link": "https://www.synthavo.de/en/",
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/synthavo.jpeg",
-      "skills": [
-        "Machine Learning",
-        "Python",
-        "Object Detection",
-        "Instance Segmentation",
-        "Computer Vision",
-        "Text Recognition",
-        "Binary Segmentation"
-      ]
-    },
-    {
-      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
-      "date": "Mar 2023 - Jul 2023 | Prague, Czechia | Part-time",
-      "role": "Machine Learning Researcher",
-      "desc": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'\n• More under project: Urban Traffic Control Framework",
-      "skills": [
-        "Machine Learning", 
-        "Python", 
-        "Traffic Simulation (SUMO)", 
-        "Intelligent Traffic Planning",
-        "Gravitational Clustering"
-      ],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
-      "link": "https://www.ciirc.cvut.cz/"
-    },
-    {
-      "company": "Charles University",
-      "date": "Jul 2020 - Dec 2022 | Prague, Czechia | Contract",
-      "role": "Data Scientist",
-      "desc": "• Project 1 (2020): Analyzed 600K+ records in MySQL using Python-based algorithms to compare and extract key insights.\n• Project 2 (2022): Developed an animated choropleth map for visualizing demographic shifts (Python, GeoJSON, NumPy, Pandas, Plotly).",
-      "skills": [
-        "Data Science", 
-        "Data Visualization", 
-        "Python", 
-        "MySQL", 
-        "NumPy", 
-        "Pandas", 
-        "Plotly",
-        "GeoJSON",
-        "Demographic Analysis"
-      ],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/charles-uni.png",
-      "link": "https://cuni.cz/UKEN-1.html"
-    },
-    {
-      "company": "US Air Force Research Lab & CTU FEE AI Center",
-      "date": "Sep 2021 - Jul 2022 | Prague, Czechia | Part-time",
-      "role": "Artificial Intelligence Researcher",
-      "desc": "• Contributed to the FRAS (Flexible and Resilient Autonomous Systems) research project, funded by the US Air Force Research Lab in cooperation with Carnegie Mellon University and CTU FEE AI Center, focusing on adversarial environments. \n• Developed a Python and PDDL-based environment generator to train single and multi-agent AI planning strategies.\n• Applied classical planning and game theory concepts to create robust algorithms for harsh weather and potential hostile attacks.",
-      "skills": ["Classical Planning", "Game Theory", "PDDL", "Python"],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/ai-fee-ctu.png",
-      "link": "https://www.aic.fel.cvut.cz/"
-    },
-    {
-      "company": "SCILIF, SUNFIBRE",
-      "date": "Jul 2021 - Oct 2021 | Prague, Czechia | Contract",
-      "role": "Android App Developer",
-      "desc": "• Designed and developed an Android app to manage multiple Bluetooth Low Energy devices at once using Kotlin.",
-      "skills": ["Android", "Kotlin", "Bluetooth Low Energy (BLE)"],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/sunfibre-logo.jpeg",
-      "link": "https://www.scilif.com/"
-    },
-    {
-      "company": "Czech Basketball Federation",
-      "date": "Sep 2016 - Jun 2020 | Prague, Czechia | Part-time",
-      "role": "Basketball Referee",
-      "desc": "• Officiated over 100 games in various age categories, including U14, U16, U18, and adults.\n• Developed leadership, teamwork, and decision-making skills in high-pressure situations.",
-      "skills": ["Leadership", "Teamwork", "Decision Making", "Work under pressure"],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cbf-full.jpg",
-      "link": "https://cbf.cz.basketball/o-cbf/p81"
-    },
-    {
-      "company": "Czech Institute of Informatics, Robotics and Cybernetics",
-      "date": "Sep 2017 - Aug 2019 | Prague, Czechia",
-      "role": "Robotics Intern",
-      "desc": "• Automated 3D printing tasks for ABB YUMI robot at CIIRC.\n• Developed a scannable coding system to sort printed parts.",
-      "skills": ["Automation", "Robotics", "3D Printing"],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/cvut-ciirc.jpeg",
-      "link": "https://www.ciirc.cvut.cz/"
-    },
-    {
-      "company": "LaunchX Entrepreneurship Program",
-      "date": "Sep 2016 - Jun 2019 | Czechia, Belgium, USA",
-      "role": "Winner of a MIT Startup Competition",
-      "desc": "• Developed a startup connecting visually impaired people with visually healthy people.\n• Won Brussels Demo Day, and got invited to MIT (Boston, USA) for further development.",
-      "skills": ["Project Start-up", "Entrepreneurship"],
-      "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/experience/mit-launchx.jpeg",
-      "link": "https://www.launchx.com/"
-    }
-  ],
-
-
-
-
-
-
-  "projects": [
-    {
-      "id": 0,
-      "title": "Video Transformers for Classification and Captioning",
-      "category": "Deep Learning",
-      "date": "Mar 2024 - Jul 2024",
-      "description": "• Developed a transformer-based pipeline leveraging SVT and Video Mamba models on the complex Charades dataset.\n• For Classification, engineered a custom data processing pipeline with sliding window inference, achieving up to 29.82 mAP while reducing dependence on extensive labeled data.\n• For Captioning, integrated a GPT-2 based decoder to generate detailed descriptions, achieving BLEU-1 scores above 0.22, demonstrating effective utilization of spatiotemporal features for coherent caption generation.",
-      "github": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/self-supervised-video-transformer.jpeg",
-      "paper": "https://github.com/sykoravojtech/VideoMamba_SVT_VideoUnderstanding/blob/main/doc/ML_Practical_LENSV7.pdf",
-      "webapp": "",
-      "tags": ["Transformer", "Video Classification", "Captioning", "Self-supervised Learning", "Charades Dataset", "Weights & Biases", "PyTorch", "PyTorch Lightning", "OpenCV", "Scikit-learn"],
-      "rank": 10,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        },
-        {
-          "name": "Nam Nguyen The",
-          "github": "https://github.com/gallegi",
-          "linkedin": "https://www.linkedin.com/in/thenam/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg"
-        },
-        {
-          "name": "Swadesh Jana",
-          "github": "https://github.com/Swadesh13",
-          "linkedin": "https://www.linkedin.com/in/swadeshjana/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/swadesh-jana.jpeg"
-        },
-        {
-          "name": "Eric Nazarenus",
-          "github": "https://github.com/ernaz100",
-          "linkedin": "https://www.linkedin.com/in/eric-nazarenus-34898718a/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/erik-nazarenus.jpeg"
-        },
-        {
-          "name": "Leon Trochelmann",
-          "github": "https://github.com/l-trochelmann",
-          "linkedin": "",
-          "img": ""
-        }
-      ],
-      "ontop": 1
-    },
-
-
-    {
-      "id": 1,
-      "title": "Instance Segmentation Challenge",
-      "category": "Deep Learning",
-      "date": "Oct 2024",
-      "description": "• This project leverages Detectron2, a transformer-based detection model, for accurate 2D instance segmentation using data with bounding boxes and masks.\n• Using a pre-trained Mask R-CNN architecture, it effectively identifies and segments diverse objects, demonstrating high accuracy even on challenging datasets.\n• The approach achieved a strong overall Average Precision (AP) of 46.1, highlighting its effectiveness for detailed image analysis tasks.",
-      "github": "https://github.com/sykoravojtech/instance-segmentation-challenge",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/instance-segmentation-challenge/main/assets/rcnn.png",
-      "webapp": "",
-      "tags": ["Instance Segmentation", "Detectron2", "Mask R-CNN", "PyTorch"],
-      "rank": 40,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        }
-      ],
-      "ontop": 1
-    },
-
-    {
-      "id": 2,
-      "title": "Proximal Policy Optimization for Car Racing",
-      "category": "Deep Learning",
-      "date": "Jul 2022 - Jun 2023",
-      "description": "• Implemented Proximal Policy Optimization (PPO) algorithm for training reinforcement learning agents in the OpenAI CarRacing environment with custom Wind.\n• Developed robust training strategies, optimized hyperparameters, and thoroughly evaluated agent performance, culminating in a comprehensive thesis and analysis of PPO effectiveness in autonomous driving tasks.\n• Consistently reached score of 900+ beating the environment.",
-      "github": "https://github.com/sykoravojtech/PPOthesis/tree/main",
-      "paper": "https://raw.githubusercontent.com/sykoravojtech/PPOthesis/main/PPO_Thesis_Sykora.pdf",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/PPOCarRacing/main/car-driving.gif",
-      "webapp": "",
-      "tags": ["Reinforcement Learning", "PPO", "OpenAI Gym", "Autonomous Driving"],
-      "rank": 50,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        }
-      ],
-      "ontop": 1
-    },
-
-    {
-      "id": 3,
-      "title": "Ischemic Heart Disease Analysis in Germany",
-      "category": "Machine Learning",
-      "date": "Oct 2023 - Apr 2024",
-      "description": "• Conducted a comprehensive analysis of ischemic heart disease (IHD) in Germany, identifying its prominence among cardiovascular diseases and its significant contribution to the national death rate.\n• Applied statistical analysis and Random Forest regression modeling to assess the influence of healthcare spending, alcohol consumption, fat consumption, and demographic factors like median age.\n• The project revealed that alcohol consumption, median age, and healthcare expenditures significantly affect the death rate of IHD, while the influence of fat consumption remained inconclusive. The analysis provided insights into Germany's lifestyle factors and healthcare efficiency, suggesting avenues for public health improvements.",
-      "github": "https://github.com/sykoravojtech/IHD_germany_2024",
-      "paper": "https://raw.githubusercontent.com/sykoravojtech/IHD_germany_2024/main/doc/IHD_germany_2024/DataLit_report_2024.pdf",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/ihd-germany.png",
-      "webapp": "",
-      "tags": [
-        "Machine Learning",
-        "Random Forest",
-        "SHAP Analysis",
-        "Cardiovascular Disease",
-        "Matplotlib",
-        "Pandas",
-        "NumPy"
-      ],
-      "rank": 60,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        },
-        {
-          "name": "Denis Kovačević",
-          "github": "https://github.com/QuackyPenguin",
-          "linkedin": "https://www.linkedin.com/in/denis-kovacevic-445182204/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/denis-kovacevic.jpeg"
-        },
-        {
-          "name": "Nam Nguyen The",
-          "github": "https://github.com/gallegi",
-          "linkedin": "https://www.linkedin.com/in/thenam/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/nam-nguyen-the.jpeg"
-        }
-      ],
-      "ontop": 1
-    },
-
-    {
-      "id": 4,
-      "title": "Urban Traffic Control Framework",
-      "category": "Machine Learning",
-      "date": "Mar 2023 - Jul 2023",
-      "description": "• Conducted research on identifying the most congested areas in urban environments, specifically in Dublin and Luxembourg.\n• Developed and adapted gravitational clustering techniques to detect high-traffic regions, optimizing urban mobility analysis.\n• Contributed to a larger framework integrating centralized traffic routing into the SUMO traffic simulation environment. \n• Worked with publicly available traffic datasets, applying data-driven approaches to identify problematic traffic zones.\n• Collaborated with a research team working on path optimization and route generation within congested areas.\n• Co-authored a research paper submitted to Expert Systems with Applications (ESWA), Elsevier, titled: 'A Framework for Evaluating and Analysing Centralised Urban Traffic Routing Techniques.'",
-      "github": "https://github.com/Matyxus/UTC_Framework",
-      "paper": "",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/utc-framework.png",
-      "webapp": "",
-      "tags": [
-        "Traffic Simulation",
-        "SUMO",
-        "PDDL",
-        "Gravitational Clustering",
-        "Vehicle Routing",
-        "Automated Planning",
-        "Python"
-      ],
-      "rank": 50,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        },
-        {
-          "name": "Matyáš Švadlenka,",
-          "github": "https://github.com/Matyxus",
-          "linkedin": "",
-          "img": ""
-        },
-        {
-          "name": "Lukáš Chrpa",
-          "github": "https://github.com/lchrpa",
-          "linkedin": "https://www.linkedin.com/in/lukas-chrpa-585284b/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/lukas-chrpa.jpeg"
-        }
-      ],
-      "ontop": 1
-    },
-
-    {
-      "id": 5,
-      "title": "GeoJson Map Animation",
-      "category": "Programming",
-      "date": "2022",
-      "description": "• This project visualizes population movement and demographic trends using interactive maps created with GeoPandas, Numpy, and Plotly.\n• It provides dynamic, data-driven insights into population patterns across regions over time, leveraging geospatial analysis to clearly represent complex demographic shifts.",
-      "github": "https://github.com/sykoravojtech/geojson-map-animation",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/geojson-map-animation/main/orp.gif",
-      "webapp": "",
-      "tags": ["Animation", "Python", "GeoJSON", "GeoPandas", "Plotly"],
-      "rank": 100,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        }
-      ],
-      "ontop": 0
-    },
-
-    {
-      "id": 6,
-      "title": "BioVis Food Data Visualization",
-      "category": "Programming",
-      "date": "Oct 2023 - Feb 2024",
-      "description": "• This project analyzed a large dataset of 180,000+ recipes from Food.com to visualize ingredient trends, nutritional content, and cuisine popularity across global regions.\n• Using using advanced JavaScript libraries (D3.js), the analysis explored ingredient similarities, dietary patterns, and popularity dynamics, offering interactive filters for detailed cuisine comparisons.",
-      "github": "https://github.com/sykoravojtech/BioVis_food/tree/main",
-      "paper": "",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/projects/biovis-data.png",
-      "webapp": "",
-      "tags": [
-        "JavaScript",
-        "Data Visualization",
-        "D3.js",
-        "Interactive Visualization"
-      ],
-      "rank": 70,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        },
-        {
-          "name": "Daniel Eskandar",
-          "github": "https://github.com/danieleskandar",
-          "linkedin": "https://www.linkedin.com/in/daniel-eskandar-6422a21b1/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/daniel-eskandar.png"
-        },
-        {
-          "name": "Carla López Martínez",
-          "github": "https://github.com/carla-lm",
-          "linkedin": "https://www.linkedin.com/in/carla-lopez-martinez/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/carla-lopez-martinez.jpeg"
-        },
-        {
-          "name": "Melis Oktayoğlu",
-          "github": "https://github.com/moktayoglu",
-          "linkedin": "https://www.linkedin.com/in/melis-oktayoglu/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/melis-oktayoglu.jpeg"
-        }
-      ],
-      "ontop": 0
-    },
-
-    {
-      "id": 7,
-      "title": "Portfolio Website",
-      "category": "Programming",
-      "date": "2025-Present",
-      "description": "• My personal dynamic portfolio website. Built with ReactJS, Tailwind CSS, and Firebase for backend integration.\n• It is optimized for a seamless experience across both desktop and mobile devices.",
-      "github": "https://github.com/sykoravojtech/portfolio",
-      "image": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/website_intro.png",
-      "webapp": "https://sykoravojtech.github.io/portfolio/",
-      "tags": ["ReadJS", "Tailwind CSS", "Firebase", "Google Analytics", "Portfolio"],
-      "rank": 80,
-      "member": [
-        {
-          "name": "Vojtěch Sýkora",
-          "github": "https://github.com/sykoravojtech",
-          "linkedin": "https://www.linkedin.com/in/sykoravojtech/",
-          "img": "https://raw.githubusercontent.com/sykoravojtech/portfolio/main/src/images/people/vojtech-sykora.png"
-        }
-      ],
-      "ontop": 0
-    }
-    
   ]
-
-
-
 }
